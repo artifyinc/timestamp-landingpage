@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.artifyapp.timestamp",
+      "sha256_cert_fingerprints": [
+        "92:6F:38:A7:FC:6D:FB:1D:7E:DF:8E:73:38:3D:F4:CC:F4:2A:21:2D:E5:AD:48:4D:03:5C:04:B3:C8:45:D9:20"
+      ]
+    }
+  }
+]
