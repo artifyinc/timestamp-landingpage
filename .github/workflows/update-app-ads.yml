@@ -1,0 +1,32 @@
+name: Update app-ads.txt
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-app-ads:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Download app-ads.txt from daro.so
+        run: curl -o app-ads.txt https://daro.so/app-ads.txt
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Commit and push changes
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            git add app-ads.txt
+            git commit -m "Update app-ads.txt from daro.so"
+            git push
+          else
+            echo "No changes to commit"
+          fi
