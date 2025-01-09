@@ -1990,6 +1990,7 @@ risecodes.com, 64e346c45ab8e700016b45cd, RESELLER
 risecodes.com, 6548dccf58df6d00010625d2, RESELLER
 risecodes.com, 6552138158df6d00013c5480, DIRECT
 risecodes.com, 662a26f1f3d42a00015ffbad, RESELLER
+risecodes.com, 6641bedf41d2c40001d02751, RESELLER
 rixengine.com, 36054, DIRECT
 rixengine.com, 36069, RESELLER
 rixengine.com, 36084, DIRECT
@@ -2469,6 +2470,7 @@ terabox.com, 160021, DIRECT
 terabox.com, 160021, RESELLER
 thebrave.io, 1234568, RESELLER, c25b2154543746ac
 thebrave.io, 1234585, RESELLER, c25b2154543746ac
+thebrave.io, 1234587, RESELLER, c25b2154543746ac
 thebrave.io, 1234589, RESELLER, c25b2154543746ac
 thebrave.io, 1234596, RESELLER, c25b2154543746ac
 thebrave.io, 1234598, RESELLER, c25b2154543746ac
