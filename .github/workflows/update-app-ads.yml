@@ -16,6 +16,9 @@ jobs:
       - name: Download app-ads.txt from daro.so
         run: curl -o app-ads.txt https://app-ads-txt.daro.so/app-ads.txt
 
+      - name: Append app-ads.google.txt
+        run: cat app-ads.google.txt >> app-ads.txt
+
       - name: Configure git
         run: |
           git config user.name "github-actions[bot]"
