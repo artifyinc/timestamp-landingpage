@@ -3011,3 +3011,6 @@ zmaticoo.com, 5135224, RESELLER
 zmaticoo.com, 5135655, RESELLER
 zmaticoo.com, 5135704, RESELLER
 zoomd.com, 88478941, RESELLER
+google.com, pub-6239819525289626, DIRECT, f088c47fec942fa0
+google.com, pub-8005039264598613, DIRECT, f08c47fec0942fa0
+facebook.com, 175371696137627, DIRECT, c3e20eee3f780d68
