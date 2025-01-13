@@ -2255,6 +2255,7 @@ smartadserver.com, 3020, RESELLER
 smartadserver.com, 3020, RESELLER, 060d053dcf45cbf3
 smartadserver.com, 3064, RESELLER, 060d053dcf45cbf3
 smartadserver.com, 3117, RESELLER
+smartadserver.com, 3117, RESELLER, 060d053dcf45cbf3
 smartadserver.com, 3172, RESELLER, 060d053dcf45cbf3
 smartadserver.com, 3232, RESELLER
 smartadserver.com, 3232, RESELLER, 060d053dcf45cbf3
