@@ -1369,6 +1369,7 @@ loopme.com, 11633, RESELLER, 6c8d5f95897a5a3b
 loopme.com, 11635, RESELLER, 6c8d5f95897a5a3b
 loopme.com, 11657, RESELLER, 6c8d5f95897a5a3b
 loopme.com, 11694, RESELLER, 6c8d5f95897a5a3b
+loopme.com, 14105, DIRECT, 6c8d5f95897a5a3b
 loopme.com, 2896, RESELLER, 6c8d5f95897a5a3b
 loopme.com, 5176, RESELLER, 6c8d5f95897a5a3b
 loopme.com, 5679, RESELLER, 6c8d5f95897a5a3b
@@ -2427,6 +2428,7 @@ smartclip.net, 12422, RESELLER
 smartclip.net, 13039, RESELLER
 smartclip.net, 13627, RESELLER
 smartclip.net, 14275, RESELLER
+smartclip.net, 15458, RESELLER
 smartclip.net, 27985, RESELLER
 smartivi.ai, 3561, RESELLER
 smartstream.tv, 667, RESELLER
@@ -2469,6 +2471,7 @@ sonobi.com, a257177742, RESELLER, d1a215d9eb5aee9e
 sonobi.com, a7c3746d6a, RESELLER, d1a215d9eb5aee9e
 sonobi.com, a85c5f6129, RESELLER, d1a215d9eb5aee9e
 sonobi.com, ac6f1a9ded, RESELLER, d1a215d9eb5aee9e
+sonobi.com, b43e9530e7, RESELLER, d1a215d9eb5aee9e
 sonobi.com, c58cf86903, RESELLER, d1a215d9eb5aee9e
 sonobi.com, c5e9ff8391, RESELLER, d1a215d9eb5aee9e
 sonobi.com, cc3858f35e, RESELLER, d1a215d9eb5aee9e
