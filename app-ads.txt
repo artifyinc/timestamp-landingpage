@@ -175,6 +175,7 @@ adingenious.com, 70723, RESELLER
 adingenious.com, 70724, RESELLER
 adingenious.com, 70725, RESELLER
 adingenious.com, 70726, RESELLER
+adingenious.com, 75036, RESELLER
 adingo.jp, 27135, RESELLER
 adingo.jp, 31054, RESELLER
 admanmedia.com, 1004, DIRECT
@@ -532,6 +533,7 @@ beachfront.com, 13749, RESELLER, e2541279e8e2ca4d
 beachfront.com, 13836, RESELLER, e2541279e8e2ca4d
 beachfront.com, 7300, RESELLER
 beachfront.com, 805, RESELLER, e2541279e8e2ca4d
+beapup.com, 522589, RESELLER
 beapup.com, 544587, RESELLER
 beapup.com, 658874, RESELLER
 bematterfull.com, 0423895, RESELLER
@@ -631,6 +633,7 @@ caerulus.io, 3320-39849, RESELLER
 caerulus.io, 3320-44758, RESELLER
 caerulus.io, 3320-72775, RESELLER
 carbonatix.com, 140984665, RESELLER
+carbonatix.com, 141073554, RESELLER
 carbonatix.com, 164931029, RESELLER
 castify.ai, 1210421, RESELLER
 castify.ai, 1271351, RESELLER
@@ -934,6 +937,8 @@ freewheel.tv, 1585652, RESELLER
 freewheel.tv, 1585681, RESELLER
 freewheel.tv, 1590601, RESELLER
 freewheel.tv, 1590606, RESELLER
+freewheel.tv, 1599106, RESELLER
+freewheel.tv, 1599109, RESELLER
 freewheel.tv, 1600411, RESELLER
 freewheel.tv, 1601349, RESELLER
 freewheel.tv, 1601388, RESELLER
@@ -1022,6 +1027,7 @@ growintech.co, 102275, RESELLER, xwrkgz
 growintech.co, 2723d092b63885e0d7c260cc007e8b9d2393g, RESELLER, 9d8dfe5c6b00fb37
 growintech.co, 2723d092b63885e0d7c260cc007e8b9d31577, RESELLER
 growintech.co, 36854, RESELLER
+growzee.io, cd9d1950-1f84-4645-80f4-bdbaa23548a0, RESELLER
 gumgum.com, 13768, RESELLER, ffdef49475d318a9
 gumgum.com, 15581, RESELLER
 gumgum.com, 15677, RESELLER, ffdef49475d318a9
@@ -1050,6 +1056,7 @@ ignitemediatech.com, pub_61170, RESELLER
 ignitemediatech.com, pub_61350, DIRECT
 ignitemediatech.com, pub_61351, RESELLER
 iion.io, 10162, RESELLER
+iion.io, 10171, RESELLER, 013a29748465dc57
 iion.io, 10192, RESELLER, 013a29748465dc57
 imds.tv, 82578, RESELLER, ae6c32151e71f19d
 improvedigital.com, 1114, RESELLER
@@ -2458,6 +2465,7 @@ sonobi.com, 25e3d9361e, RESELLER, d1a215d9eb5aee9e
 sonobi.com, 2b51f34067, RESELLER, d1a215d9eb5aee9e
 sonobi.com, 37fbaf262c, RESELLER, d1a215d9eb5aee9e
 sonobi.com, 442a7bfdb0, RESELLER, d1a215d9eb5aee9e
+sonobi.com, 45dd948092, RESELLER, d1a215d9eb5aee9e
 sonobi.com, 48b6f6efb4, RESELLER, d1a215d9eb5aee9e
 sonobi.com, 4980f2fde3, RESELLER, d1a215d9eb5aee9e
 sonobi.com, 4a289cdd79, RESELLER, d1a215d9eb5aee9e
@@ -2562,6 +2570,7 @@ telaria.com, 9l6ha-9w3wc, RESELLER, 1a4e959a1b50034a
 telaria.com, busk1-8wlce, RESELLER, 1a4e959a1b50034a
 terabox.com, 160021, DIRECT
 terabox.com, 160021, RESELLER
+theaudiencestreet.com, tas-703, RESELLER
 thebrave.io, 1234568, RESELLER, c25b2154543746ac
 thebrave.io, 1234585, RESELLER, c25b2154543746ac
 thebrave.io, 1234587, RESELLER, c25b2154543746ac
@@ -2612,6 +2621,7 @@ themediagrid.com, YUPM3V, RESELLER, 35d5010d7789b49d
 themediagrid.com, ZA2VPO, RESELLER, 35d5010d7789b49d
 themediagrid.com, fh3tkj, RESELLER, 35d5010d7789b49d
 themediagrid.com, jaz4ri, RESELLER, 35d5010d7789b49d
+themediasense.com, 1147, RESELLER
 thirdpresence.com, 497215, RESELLER
 thunder-monetize.com, 1125520627, RESELLER
 thunder-monetize.com, 1252316774, RESELLER
