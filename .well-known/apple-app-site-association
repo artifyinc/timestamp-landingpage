@@ -1,0 +1,15 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appIDs": [
+          "T8ULMMRX49.co.launcharea.Timestamp"
+        ],
+        "paths": [
+          "*"
+        ]
+      }
+    ]
+  }
+}
