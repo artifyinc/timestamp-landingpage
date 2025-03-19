@@ -908,6 +908,7 @@ facebook.com, 470985219917370, DIRECT, c3e20eee3f780d68
 facebook.com, 470985219917370, RESELLER, c3e20eee3f780d68
 facebook.com, 565418010598837, DIRECT, c3e20eee3f780d68
 facebook.com, 842318670829644, RESELLER, c3e20eee3f780d68
+fivecdm.com, 86377878, DIRECT
 flat-ads.com, 182, DIRECT
 flat-ads.com, 206, RESELLER
 flat-ads.com, 2196901, RESELLER
@@ -1591,6 +1592,7 @@ onetag.com, 8dd8de7f341d57e, RESELLER
 onetag.com, 8dd92b4434e684b, RESELLER
 onetag.com, 8df76ed1d09d55e, RESELLER
 onetag.com, 8e2df0e6e846fb4, DIRECT
+onetag.com, 8e2df0e6e846fb4-OB, DIRECT
 onetag.com, 925c32ef718e9fe, RESELLER
 onlinemediasolutions.com, 20444, RESELLER
 onlinemediasolutions.com, 23120, RESELLER
