@@ -1,0 +1,5 @@
+google.com, pub-3141837772329875, DIRECT, f08c47fec0942fa0
+google.com, pub-6239819525289626, DIRECT, f088c47fec942fa0
+google.com, pub-8005039264598613, DIRECT, f08c47fec0942fa0
+facebook.com, 175371696137627, DIRECT, c3e20eee3f780d68
+themediagrid.com, 4NTOCW, DIRECT, 35d5010d7789b49d
