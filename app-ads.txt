@@ -5,7 +5,6 @@
 152media.info, 152M337, RESELLER
 152media.info, 152M372, RESELLER
 152media.info, 152M499, RESELLER
-152media.info, 152M5
 152media.info, 152M5, RESELLER
 152media.info, 152M50, RESELLER
 152media.info, 152M608, RESELLER
