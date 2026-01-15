@@ -1343,10 +1343,8 @@ freewheel.tv, sg1258340, RESELLER
 fromthetop.io, 65527, RESELLER
 fromthetop.io, 65529, RESELLER
 fromthetop.io, 65536, RESELLER
-fyber.com, 210639, DIRECT
 fyber.com, 210639, DIRECT, 1ad675c9de6b5176
 fyber.com, 219733, RESELLER
-fyber.com, 231693, DIRECT
 g-global.net, 20304, DIRECT
 galaxyx-tech.com, 60056, RESELLER
 gamaigroup.com, 320201, RESELLER
