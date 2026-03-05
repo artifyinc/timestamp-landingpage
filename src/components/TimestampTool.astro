@@ -1,6 +1,8 @@
 ---
+import { type TranslationData } from '../i18n/index';
+
 interface Props {
-  t: any;
+  t: TranslationData;
   locale: string;
 }
 
@@ -21,14 +23,18 @@ const { t, locale } = Astro.props;
     <input type="file" id="file-input" accept="image/jpeg,image/png,image/webp,image/heic" class="hidden" />
   </div>
 
+  <!-- Error State -->
+  <div id="error-message" class="hidden mb-4 p-4 bg-red-50 dark:bg-red-900/30 border border-red-200 dark:border-red-800 rounded-lg text-red-800 dark:text-red-200 text-sm" role="alert">
+  </div>
+
   <!-- Processing State -->
-  <div id="processing-state" class="hidden text-center py-12">
+  <div id="processing-state" class="hidden text-center py-12" aria-live="polite">
     <div class="animate-spin h-10 w-10 border-4 border-primary-500 border-t-transparent rounded-full mx-auto mb-4"></div>
     <p class="text-gray-600 dark:text-gray-400">{t.tool.processing}</p>
   </div>
 
   <!-- Result Area -->
-  <div id="result-area" class="hidden">
+  <div id="result-area" class="hidden" role="status" aria-live="polite">
     <div id="exif-warning" class="hidden mb-4 p-4 bg-yellow-50 dark:bg-yellow-900/30 border border-yellow-200 dark:border-yellow-800 rounded-lg text-yellow-800 dark:text-yellow-200 text-sm">
       {t.tool.noExif}
     </div>
@@ -304,15 +310,32 @@ const { t, locale } = Astro.props;
   const resetBtn = document.getElementById('reset-btn');
   const exifWarning = document.getElementById('exif-warning');
   const ctaBanner = document.getElementById('cta-banner');
+  const errorMessage = document.getElementById('error-message');
+
+  const MAX_FILE_SIZE = 256 * 1024 * 1024; // 256MB
 
   function showState(state) {
     uploadArea.classList.toggle('hidden', state !== 'upload');
     processingState.classList.toggle('hidden', state !== 'processing');
     resultArea.classList.toggle('hidden', state !== 'result');
     ctaBanner.classList.toggle('hidden', state !== 'result');
+    if (state !== 'upload') errorMessage.classList.add('hidden');
+  }
+
+  function showError(message) {
+    errorMessage.textContent = message;
+    errorMessage.classList.remove('hidden');
+    showState('upload');
   }
 
   async function processFile(file) {
+    if (file.size > MAX_FILE_SIZE) {
+      showError(locale === 'ko' ? '파일이 너무 큽니다 (최대 256MB)' :
+                locale === 'ja' ? 'ファイルが大きすぎます（最大256MB）' :
+                `File is too large (max 256MB)`);
+      return;
+    }
+
     showState('processing');
 
     try {
@@ -337,13 +360,17 @@ const { t, locale } = Astro.props;
 
       img.onerror = () => {
         URL.revokeObjectURL(url);
-        showState('upload');
+        showError(locale === 'ko' ? '이미지를 불러올 수 없습니다' :
+                  locale === 'ja' ? '画像を読み込めません' :
+                  'Failed to load image');
       };
 
       img.src = url;
     } catch (e) {
       console.error('Error processing file:', e);
-      showState('upload');
+      showError(locale === 'ko' ? '파일 처리 중 오류가 발생했습니다' :
+                locale === 'ja' ? 'ファイルの処理中にエラーが発生しました' :
+                'An error occurred while processing the file');
     }
   }
 

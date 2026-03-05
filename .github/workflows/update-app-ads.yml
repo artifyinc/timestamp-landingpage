@@ -5,16 +5,19 @@ on:
     - cron: '0 0 * * *'
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   update-app-ads:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Download app-ads.txt from daro.so
-        run: curl -o public/app-ads.txt https://publisher.daro.so/app-ads.txt
+        run: curl -f --max-filesize 524288 -o public/app-ads.txt https://publisher.daro.so/app-ads.txt
 
       - name: Append app-ads.google.txt
         run: cat app-ads.google.txt >> public/app-ads.txt
