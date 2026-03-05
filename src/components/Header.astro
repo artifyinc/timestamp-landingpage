@@ -9,6 +9,7 @@ interface Props {
 const { locale, t } = Astro.props;
 const toolSlug = getToolSlug(locale);
 const currentLocaleName = locales.find((l) => l.code === locale)?.name ?? 'English';
+const base = `/${locale}/`;
 ---
 
 <header
@@ -24,16 +25,16 @@ const currentLocaleName = locales.find((l) => l.code === locale)?.name ?? 'Engli
 
       <!-- Desktop Nav -->
       <nav class="hidden md:flex items-center gap-6">
-        <a href="#features" class="text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
+        <a href={`${base}#features`} class="text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
           {t.nav.features}
         </a>
-        <a href="#screenshots" class="text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
+        <a href={`${base}#screenshots`} class="text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
           {t.nav.screenshots}
         </a>
-        <a href="#faq" class="text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
+        <a href={`${base}#faq`} class="text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
           {t.nav.faq}
         </a>
-        <a href="#download" class="text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
+        <a href={`${base}#download`} class="text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
           {t.nav.download}
         </a>
         <a
@@ -120,16 +121,16 @@ const currentLocaleName = locales.find((l) => l.code === locale)?.name ?? 'Engli
       class="hidden md:hidden border-t border-gray-200 dark:border-gray-800 py-4 space-y-2"
       data-mobile-menu
     >
-      <a href="#features" class="block rounded-lg px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">
+      <a href={`${base}#features`} class="block rounded-lg px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">
         {t.nav.features}
       </a>
-      <a href="#screenshots" class="block rounded-lg px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">
+      <a href={`${base}#screenshots`} class="block rounded-lg px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">
         {t.nav.screenshots}
       </a>
-      <a href="#faq" class="block rounded-lg px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">
+      <a href={`${base}#faq`} class="block rounded-lg px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">
         {t.nav.faq}
       </a>
-      <a href="#download" class="block rounded-lg px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">
+      <a href={`${base}#download`} class="block rounded-lg px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">
         {t.nav.download}
       </a>
       <a
