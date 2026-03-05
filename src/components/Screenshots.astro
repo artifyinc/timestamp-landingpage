@@ -1,0 +1,43 @@
+---
+import type { TranslationData } from '../i18n/index';
+
+interface Props {
+  t: TranslationData;
+}
+
+const { t } = Astro.props;
+
+const screenshots = [
+  '/images/en_01.png',
+  '/images/en_02.png',
+  '/images/en_03.png',
+  '/images/en_04.png',
+  '/images/en_05.png',
+];
+---
+
+<section id="screenshots" class="py-20 sm:py-24 bg-gray-50 dark:bg-gray-900">
+  <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+    <h2 class="text-3xl sm:text-4xl font-bold text-center text-gray-900 dark:text-white">
+      {t.screenshots.title}
+    </h2>
+
+    <!-- Mobile: horizontal scroll / Desktop: grid -->
+    <div class="mt-14 -mx-4 px-4 sm:mx-0 sm:px-0">
+      <div class="flex gap-4 overflow-x-auto pb-6 snap-x snap-mandatory sm:grid sm:grid-cols-5 sm:gap-6 sm:overflow-visible sm:pb-0">
+        {screenshots.map((src, i) => (
+          <div class="shrink-0 w-52 sm:w-auto snap-center">
+            <img
+              src={src}
+              alt={`${t.screenshots.title} ${i + 1}`}
+              class="w-full rounded-2xl shadow-lg shadow-black/10 dark:shadow-black/30"
+              width="300"
+              height="600"
+              loading="lazy"
+            />
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+</section>

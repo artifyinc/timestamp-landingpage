@@ -1,0 +1,387 @@
+---
+interface Props {
+  t: any;
+  locale: string;
+}
+
+const { t, locale } = Astro.props;
+---
+
+<div id="timestamp-tool" class="max-w-2xl mx-auto">
+  <!-- Upload Area -->
+  <div
+    id="upload-area"
+    class="border-2 border-dashed border-gray-300 dark:border-gray-600 rounded-2xl p-12 text-center cursor-pointer hover:border-primary-500 dark:hover:border-primary-400 transition-colors"
+  >
+    <svg class="mx-auto h-16 w-16 text-gray-400 dark:text-gray-500 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5m-13.5-9L12 3m0 0l4.5 4.5M12 3v13.5" />
+    </svg>
+    <p class="text-lg font-medium text-gray-700 dark:text-gray-300">{t.tool.upload}</p>
+    <p class="text-sm text-gray-500 dark:text-gray-400 mt-1">{t.tool.uploadHint}</p>
+    <input type="file" id="file-input" accept="image/jpeg,image/png,image/webp,image/heic" class="hidden" />
+  </div>
+
+  <!-- Processing State -->
+  <div id="processing-state" class="hidden text-center py-12">
+    <div class="animate-spin h-10 w-10 border-4 border-primary-500 border-t-transparent rounded-full mx-auto mb-4"></div>
+    <p class="text-gray-600 dark:text-gray-400">{t.tool.processing}</p>
+  </div>
+
+  <!-- Result Area -->
+  <div id="result-area" class="hidden">
+    <div id="exif-warning" class="hidden mb-4 p-4 bg-yellow-50 dark:bg-yellow-900/30 border border-yellow-200 dark:border-yellow-800 rounded-lg text-yellow-800 dark:text-yellow-200 text-sm">
+      {t.tool.noExif}
+    </div>
+    <div class="rounded-2xl overflow-hidden shadow-lg bg-gray-100 dark:bg-gray-800">
+      <canvas id="result-canvas" class="w-full h-auto"></canvas>
+    </div>
+    <div class="flex gap-3 mt-6">
+      <button
+        id="download-btn"
+        class="flex-1 bg-primary-600 hover:bg-primary-700 text-white font-medium py-3 px-6 rounded-xl transition-colors"
+      >
+        {t.tool.download}
+      </button>
+      <button
+        id="reset-btn"
+        class="flex-1 border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-800 font-medium py-3 px-6 rounded-xl transition-colors"
+      >
+        {t.tool.reset}
+      </button>
+    </div>
+  </div>
+
+  <!-- CTA Banner -->
+  <div id="cta-banner" class="hidden mt-8 p-6 bg-gradient-to-r from-primary-500 to-primary-700 rounded-2xl text-center text-white">
+    <p class="text-lg font-semibold mb-3">{t.tool.ctaBanner}</p>
+    <div class="flex justify-center gap-3">
+      <a
+        href="https://itunes.apple.com/app/id1115974495"
+        class="inline-flex items-center gap-2 bg-white/20 hover:bg-white/30 backdrop-blur px-5 py-2.5 rounded-xl text-sm font-medium transition-colors"
+      >
+        <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+        App Store
+      </a>
+      <a
+        href="https://play.google.com/store/apps/details?id=com.artifyapp.timestamp"
+        class="inline-flex items-center gap-2 bg-white/20 hover:bg-white/30 backdrop-blur px-5 py-2.5 rounded-xl text-sm font-medium transition-colors"
+      >
+        <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor"><path d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.61 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.53,12.9 20.18,13.18L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z"/></svg>
+        Google Play
+      </a>
+    </div>
+  </div>
+</div>
+
+<script define:vars={{ locale }}>
+  // EXIF date parser - reads DateTimeOriginal from JPEG EXIF data
+  function readExifDate(arrayBuffer) {
+    const view = new DataView(arrayBuffer);
+
+    // Check for JPEG
+    if (view.getUint16(0) !== 0xFFD8) return null;
+
+    let offset = 2;
+    while (offset < view.byteLength - 1) {
+      const marker = view.getUint16(offset);
+      offset += 2;
+
+      if (marker === 0xFFE1) { // APP1 (EXIF)
+        const length = view.getUint16(offset);
+        const exifOffset = offset + 2;
+
+        // Check "Exif\0\0"
+        const exifHeader = String.fromCharCode(
+          view.getUint8(exifOffset), view.getUint8(exifOffset + 1),
+          view.getUint8(exifOffset + 2), view.getUint8(exifOffset + 3)
+        );
+        if (exifHeader !== 'Exif') return null;
+
+        const tiffOffset = exifOffset + 6;
+        const littleEndian = view.getUint16(tiffOffset) === 0x4949;
+
+        const ifdOffset = view.getUint32(tiffOffset + 4, littleEndian);
+        const ifdStart = tiffOffset + ifdOffset;
+        const entries = view.getUint16(ifdStart, littleEndian);
+
+        // Look for ExifIFD pointer (tag 0x8769)
+        let exifIFDOffset = null;
+        for (let i = 0; i < entries; i++) {
+          const entryOffset = ifdStart + 2 + i * 12;
+          const tag = view.getUint16(entryOffset, littleEndian);
+          if (tag === 0x8769) {
+            exifIFDOffset = view.getUint32(entryOffset + 8, littleEndian);
+            break;
+          }
+        }
+
+        if (exifIFDOffset === null) return null;
+
+        const exifIFDStart = tiffOffset + exifIFDOffset;
+        const exifEntries = view.getUint16(exifIFDStart, littleEndian);
+
+        // Look for DateTimeOriginal (0x9003) or DateTimeDigitized (0x9004)
+        for (let i = 0; i < exifEntries; i++) {
+          const entryOffset = exifIFDStart + 2 + i * 12;
+          if (entryOffset + 12 > view.byteLength) break;
+
+          const tag = view.getUint16(entryOffset, littleEndian);
+          if (tag === 0x9003 || tag === 0x9004) {
+            const count = view.getUint32(entryOffset + 4, littleEndian);
+            const valueOffset = view.getUint32(entryOffset + 8, littleEndian);
+            const strOffset = tiffOffset + valueOffset;
+
+            let dateStr = '';
+            for (let j = 0; j < count - 1 && strOffset + j < view.byteLength; j++) {
+              dateStr += String.fromCharCode(view.getUint8(strOffset + j));
+            }
+
+            // Format: "2024:03:15 14:30:00"
+            const match = dateStr.match(/(\d{4}):(\d{2}):(\d{2}) (\d{2}):(\d{2}):(\d{2})/);
+            if (match) {
+              return new Date(
+                parseInt(match[1]), parseInt(match[2]) - 1, parseInt(match[3]),
+                parseInt(match[4]), parseInt(match[5]), parseInt(match[6])
+              );
+            }
+          }
+        }
+        return null;
+      } else if ((marker & 0xFF00) === 0xFF00) {
+        offset += view.getUint16(offset);
+      } else {
+        break;
+      }
+    }
+    return null;
+  }
+
+  function formatDateForLocale(date, loc) {
+    const dayNames = {
+      'en': ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
+      'ko': ['일', '월', '화', '수', '목', '금', '토'],
+      'ja': ['日', '月', '火', '水', '木', '金', '土'],
+      'zh-cn': ['日', '一', '二', '三', '四', '五', '六'],
+      'zh-tw': ['日', '一', '二', '三', '四', '五', '六'],
+      'pt': ['Dom', 'Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sáb'],
+      'es': ['Dom', 'Lun', 'Mar', 'Mié', 'Jue', 'Vie', 'Sáb'],
+      'vi': ['CN', 'T2', 'T3', 'T4', 'T5', 'T6', 'T7'],
+      'th': ['อา', 'จ', 'อ', 'พ', 'พฤ', 'ศ', 'ส'],
+      'hi': ['रवि', 'सोम', 'मंगल', 'बुध', 'गुरु', 'शुक्र', 'शनि'],
+    };
+
+    const y = date.getFullYear();
+    const m = date.getMonth() + 1;
+    const d = date.getDate();
+    const day = (dayNames[loc] || dayNames['en'])[date.getDay()];
+    const h = date.getHours();
+    const min = date.getMinutes().toString().padStart(2, '0');
+
+    let dateLine, timeLine;
+
+    switch (loc) {
+      case 'ko':
+        dateLine = `${y}년 ${m}월 ${d}일 (${day})`;
+        timeLine = h < 12 ? `오전 ${h === 0 ? 12 : h}:${min}` : `오후 ${h === 12 ? 12 : h - 12}:${min}`;
+        break;
+      case 'ja':
+        dateLine = `${y}年${m}月${d}日 (${day})`;
+        timeLine = h < 12 ? `午前${h === 0 ? 12 : h}:${min}` : `午後${h === 12 ? 12 : h - 12}:${min}`;
+        break;
+      case 'zh-cn':
+        dateLine = `${y}年${m}月${d}日 周${day}`;
+        timeLine = h < 12 ? `上午${h === 0 ? 12 : h}:${min}` : `下午${h === 12 ? 12 : h - 12}:${min}`;
+        break;
+      case 'zh-tw':
+        dateLine = `${y}年${m}月${d}日 週${day}`;
+        timeLine = h < 12 ? `上午${h === 0 ? 12 : h}:${min}` : `下午${h === 12 ? 12 : h - 12}:${min}`;
+        break;
+      case 'th':
+        dateLine = `${d}/${m}/${y + 543} (${day})`;
+        timeLine = h < 12 ? `${h === 0 ? 12 : h}:${min} AM` : `${h === 12 ? 12 : h - 12}:${min} PM`;
+        break;
+      case 'hi':
+        dateLine = `${d}/${m}/${y} (${day})`;
+        timeLine = h < 12 ? `सुबह ${h === 0 ? 12 : h}:${min}` : `शाम ${h === 12 ? 12 : h - 12}:${min}`;
+        break;
+      case 'pt':
+      case 'es':
+        dateLine = `${d.toString().padStart(2,'0')}/${m.toString().padStart(2,'0')}/${y} (${day})`;
+        timeLine = `${h.toString().padStart(2,'0')}:${min}`;
+        break;
+      case 'vi':
+        dateLine = `${d.toString().padStart(2,'0')}/${m.toString().padStart(2,'0')}/${y} (${day})`;
+        timeLine = `${h.toString().padStart(2,'0')}:${min}`;
+        break;
+      default: // en
+        const monthNames = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+        dateLine = `${monthNames[date.getMonth()]} ${d}, ${y} (${day})`;
+        timeLine = h < 12 ? `${h === 0 ? 12 : h}:${min} AM` : `${h === 12 ? 12 : h - 12}:${min} PM`;
+        break;
+    }
+
+    return { dateLine, timeLine };
+  }
+
+  function drawTimestamp(canvas, img, date, loc) {
+    const ctx = canvas.getContext('2d');
+    canvas.width = img.naturalWidth || img.width;
+    canvas.height = img.naturalHeight || img.height;
+    ctx.drawImage(img, 0, 0);
+
+    const scale = Math.max(canvas.width, canvas.height) / 1080;
+    const { dateLine, timeLine } = formatDateForLocale(date, loc);
+
+    // Draw date/time at bottom-left
+    const fontSize = Math.round(32 * scale);
+    const lineHeight = Math.round(40 * scale);
+    const padding = Math.round(30 * scale);
+
+    ctx.font = `bold ${fontSize}px Inter, "Noto Sans KR", "Noto Sans JP", "Noto Sans SC", "Noto Sans TC", system-ui, sans-serif`;
+    ctx.textBaseline = 'bottom';
+    ctx.textAlign = 'left';
+
+    // Shadow for readability
+    ctx.shadowColor = 'rgba(0,0,0,0.5)';
+    ctx.shadowBlur = 4 * scale;
+    ctx.shadowOffsetX = 1 * scale;
+    ctx.shadowOffsetY = 1 * scale;
+    ctx.fillStyle = 'rgba(255,255,255,0.95)';
+
+    // Time line (bottom)
+    ctx.fillText(timeLine, padding, canvas.height - padding);
+    // Date line (above time)
+    ctx.fillText(dateLine, padding, canvas.height - padding - lineHeight);
+
+    // Draw "TIME STAMP" logo at top-right
+    const logoFontSize = Math.round(16 * scale);
+    ctx.font = `600 ${logoFontSize}px Inter, system-ui, sans-serif`;
+    ctx.textAlign = 'right';
+    ctx.textBaseline = 'top';
+    ctx.fillStyle = 'rgba(255,255,255,0.7)';
+    ctx.shadowBlur = 3 * scale;
+
+    const logoText = 'TIME STAMP';
+    const logoPadding = Math.round(24 * scale);
+
+    // Draw clock icon (simple circle + hands)
+    const iconSize = Math.round(18 * scale);
+    const iconX = canvas.width - logoPadding;
+    const iconY = logoPadding + logoFontSize / 2;
+
+    ctx.fillText(logoText, iconX - iconSize - 4 * scale, logoPadding);
+
+    // Clock circle
+    ctx.beginPath();
+    ctx.arc(iconX - iconSize / 2, logoPadding + logoFontSize / 2, iconSize / 2, 0, Math.PI * 2);
+    ctx.strokeStyle = 'rgba(255,255,255,0.7)';
+    ctx.lineWidth = 1.5 * scale;
+    ctx.stroke();
+
+    // Clock hands
+    const cx = iconX - iconSize / 2;
+    const cy = logoPadding + logoFontSize / 2;
+    const handLen = iconSize / 3;
+    ctx.beginPath();
+    ctx.moveTo(cx, cy);
+    ctx.lineTo(cx, cy - handLen);
+    ctx.moveTo(cx, cy);
+    ctx.lineTo(cx + handLen * 0.7, cy);
+    ctx.stroke();
+
+    // Reset shadow
+    ctx.shadowColor = 'transparent';
+    ctx.shadowBlur = 0;
+  }
+
+  // DOM setup
+  const uploadArea = document.getElementById('upload-area');
+  const fileInput = document.getElementById('file-input');
+  const processingState = document.getElementById('processing-state');
+  const resultArea = document.getElementById('result-area');
+  const resultCanvas = document.getElementById('result-canvas');
+  const downloadBtn = document.getElementById('download-btn');
+  const resetBtn = document.getElementById('reset-btn');
+  const exifWarning = document.getElementById('exif-warning');
+  const ctaBanner = document.getElementById('cta-banner');
+
+  function showState(state) {
+    uploadArea.classList.toggle('hidden', state !== 'upload');
+    processingState.classList.toggle('hidden', state !== 'processing');
+    resultArea.classList.toggle('hidden', state !== 'result');
+    ctaBanner.classList.toggle('hidden', state !== 'result');
+  }
+
+  async function processFile(file) {
+    showState('processing');
+
+    try {
+      const arrayBuffer = await file.arrayBuffer();
+      let date = readExifDate(arrayBuffer);
+      let usedFallback = false;
+
+      if (!date) {
+        date = new Date();
+        usedFallback = true;
+      }
+
+      const img = new Image();
+      const url = URL.createObjectURL(file);
+
+      img.onload = () => {
+        drawTimestamp(resultCanvas, img, date, locale);
+        URL.revokeObjectURL(url);
+        exifWarning.classList.toggle('hidden', !usedFallback);
+        showState('result');
+      };
+
+      img.onerror = () => {
+        URL.revokeObjectURL(url);
+        showState('upload');
+      };
+
+      img.src = url;
+    } catch (e) {
+      console.error('Error processing file:', e);
+      showState('upload');
+    }
+  }
+
+  // Event listeners
+  uploadArea.addEventListener('click', () => fileInput.click());
+
+  uploadArea.addEventListener('dragover', (e) => {
+    e.preventDefault();
+    uploadArea.classList.add('border-primary-500', 'bg-primary-50', 'dark:bg-primary-950/20');
+  });
+
+  uploadArea.addEventListener('dragleave', () => {
+    uploadArea.classList.remove('border-primary-500', 'bg-primary-50', 'dark:bg-primary-950/20');
+  });
+
+  uploadArea.addEventListener('drop', (e) => {
+    e.preventDefault();
+    uploadArea.classList.remove('border-primary-500', 'bg-primary-50', 'dark:bg-primary-950/20');
+    const file = e.dataTransfer.files[0];
+    if (file && file.type.startsWith('image/')) {
+      processFile(file);
+    }
+  });
+
+  fileInput.addEventListener('change', (e) => {
+    const file = e.target.files[0];
+    if (file) processFile(file);
+  });
+
+  downloadBtn.addEventListener('click', () => {
+    const link = document.createElement('a');
+    link.download = 'timestamped-photo.jpg';
+    link.href = resultCanvas.toDataURL('image/jpeg', 0.95);
+    link.click();
+  });
+
+  resetBtn.addEventListener('click', () => {
+    fileInput.value = '';
+    showState('upload');
+  });
+</script>

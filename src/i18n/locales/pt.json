@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "title": "Adicionar Data e Hora nas Fotos | App Timestamp Camera",
+    "description": "O Timestamp Camera adiciona data e hora nas suas fotos automaticamente. Registre suas refeições, treinos, estudos e momentos do dia a dia.",
+    "toolTitle": "Adicionar Data na Foto Online - Ferramenta Gratuita",
+    "toolDescription": "Adicione carimbo de data e hora nas suas fotos online e de graça. Sem necessidade de cadastro. Funciona direto no navegador."
+  },
+  "nav": {
+    "features": "Recursos",
+    "screenshots": "Capturas de Tela",
+    "faq": "Perguntas Frequentes",
+    "download": "Baixar",
+    "tool": "Adicionar Data na Foto",
+    "darkMode": "Modo Escuro",
+    "lightMode": "Modo Claro"
+  },
+  "hero": {
+    "title": "Carimbe Data e Hora\nnas Suas Fotos",
+    "subtitle": "Registre suas refeições, treinos, estudos e momentos do dia a dia. A maneira mais fácil de adicionar data e hora nas suas fotos.",
+    "cta": "Baixar Grátis",
+    "webTool": "Experimentar Online"
+  },
+  "features": {
+    "title": "Principais Recursos",
+    "items": [
+      {
+        "title": "Carimbo Automático",
+        "description": "Adiciona automaticamente a data e hora ao tirar uma foto."
+      },
+      {
+        "title": "Importar do Álbum",
+        "description": "Adicione carimbos de data em fotos que já estão no seu álbum."
+      },
+      {
+        "title": "Diversos Designs",
+        "description": "Escolha entre vários designs e cores de carimbo."
+      },
+      {
+        "title": "Salvamento Instantâneo",
+        "description": "As fotos são salvas imediatamente após a captura."
+      },
+      {
+        "title": "Registro de Refeições e Treinos",
+        "description": "Perfeito para registrar dietas e rotinas de exercícios."
+      },
+      {
+        "title": "Comprovante de Estudo",
+        "description": "Comprove seus horários de estudo e de despertar com fotos carimbadas."
+      }
+    ]
+  },
+  "screenshots": {
+    "title": "Capturas de Tela do App"
+  },
+  "faq": {
+    "title": "Perguntas Frequentes",
+    "items": [
+      {
+        "question": "O Timestamp Camera é gratuito?",
+        "answer": "Sim, o app é gratuito. Uma assinatura premium (US$19,99/ano) remove os anúncios e libera todos os designs premium de carimbo."
+      },
+      {
+        "question": "Quais dispositivos são compatíveis?",
+        "answer": "O Timestamp Camera está disponível para iOS (15.0 ou posterior) e dispositivos Android."
+      },
+      {
+        "question": "Posso adicionar carimbo em fotos que já tirei?",
+        "answer": "Sim! Você pode importar fotos do seu álbum e adicionar o carimbo de data e hora nelas."
+      },
+      {
+        "question": "O carimbo de data é preciso?",
+        "answer": "O carimbo lê a data e hora exatas dos dados EXIF da foto, garantindo precisão."
+      },
+      {
+        "question": "Posso personalizar o design do carimbo?",
+        "answer": "Sim, você pode escolher entre vários designs e cores. Assinantes premium têm acesso a todos os designs de carimbo."
+      },
+      {
+        "question": "Para que posso usar o app?",
+        "answer": "Usos populares incluem registro de refeições, acompanhamento de treinos, comprovante de estudo, verificação de horário de despertar, registro de crescimento do bebê, documentação de horário de trabalho e diário de viagem."
+      }
+    ]
+  },
+  "download": {
+    "title": "Baixe Agora",
+    "subtitle": "Disponível para iOS e Android",
+    "appStore": "App Store",
+    "playStore": "Google Play"
+  },
+  "footer": {
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Uso",
+    "contact": "Contato",
+    "copyright": "Artify Inc. Todos os direitos reservados."
+  },
+  "tool": {
+    "title": "Adicionar Data na Foto",
+    "subtitle": "Envie uma foto e adicione um carimbo de data e hora. Grátis, sem necessidade de cadastro.",
+    "upload": "Enviar Foto",
+    "uploadHint": "Arraste e solte ou clique para selecionar",
+    "processing": "Processando...",
+    "download": "Baixar",
+    "reset": "Enviar Outra Foto",
+    "noExif": "Nenhuma informação de data encontrada nesta foto. A data/hora atual será usada no lugar.",
+    "ctaBanner": "Quer mais designs de carimbo? Experimente o app!",
+    "ctaButton": "Baixar App"
+  }
+}

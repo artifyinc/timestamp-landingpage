@@ -1,0 +1,49 @@
+---
+import { locales, getLocaleData } from '../../i18n/index';
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import TimestampTool from '../../components/TimestampTool.astro';
+import StructuredData from '../../components/StructuredData.astro';
+
+export async function getStaticPaths() {
+  return locales.map((l) => ({
+    params: { locale: l.code, slug: l.toolSlug },
+    props: { locale: l.code },
+  }));
+}
+
+const { locale } = Astro.props;
+const t = await getLocaleData(locale);
+
+const baseUrl = 'https://timestamp.camera';
+
+const alternateLocales = locales.map((l) => ({
+  locale: l.code,
+  url: `${baseUrl}/${l.code}/${l.toolSlug}/`,
+}));
+
+const canonicalUrl = `${baseUrl}/${locale}/${locales.find((l) => l.code === locale)!.toolSlug}/`;
+---
+
+<Layout
+  title={t.meta.toolTitle}
+  description={t.meta.toolDescription}
+  locale={locale}
+  alternateLocales={alternateLocales}
+  canonicalUrl={canonicalUrl}
+  ogImage={`${baseUrl}/images/home.jpg`}
+>
+  <StructuredData locale={locale} t={t} type="tool" />
+  <Header locale={locale} t={t} />
+  <main>
+    <section class="py-12 md:py-20 bg-white dark:bg-gray-950">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h1 class="text-3xl md:text-4xl font-bold text-center text-gray-900 dark:text-white mb-4">{t.tool.title}</h1>
+        <p class="text-lg text-center text-gray-600 dark:text-gray-400 mb-10">{t.tool.subtitle}</p>
+        <TimestampTool t={t} locale={locale} />
+      </div>
+    </section>
+  </main>
+  <Footer t={t} />
+</Layout>

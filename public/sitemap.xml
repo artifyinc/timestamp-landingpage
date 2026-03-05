@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <!-- English index -->
+  <url>
+    <loc>https://timestamp.camera/en/</loc>
+    <lastmod>2026-03-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://timestamp.camera/en/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://timestamp.camera/ko/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://timestamp.camera/ja/" />
+    <xhtml:link rel="alternate" hreflang="zh-cn" href="https://timestamp.camera/zh-cn/" />
+    <xhtml:link rel="alternate" hreflang="zh-tw" href="https://timestamp.camera/zh-tw/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://timestamp.camera/pt/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://timestamp.camera/es/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://timestamp.camera/vi/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://timestamp.camera/th/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://timestamp.camera/hi/" />
+  </url>
+  <!-- Korean index -->
+  <url>
+    <loc>https://timestamp.camera/ko/</loc>
+    <lastmod>2026-03-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://timestamp.camera/en/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://timestamp.camera/ko/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://timestamp.camera/ja/" />
+    <xhtml:link rel="alternate" hreflang="zh-cn" href="https://timestamp.camera/zh-cn/" />
+    <xhtml:link rel="alternate" hreflang="zh-tw" href="https://timestamp.camera/zh-tw/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://timestamp.camera/pt/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://timestamp.camera/es/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://timestamp.camera/vi/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://timestamp.camera/th/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://timestamp.camera/hi/" />
+  </url>
+  <!-- Japanese index -->
+  <url>
+    <loc>https://timestamp.camera/ja/</loc>
+    <lastmod>2026-03-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://timestamp.camera/en/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://timestamp.camera/ko/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://timestamp.camera/ja/" />
+    <xhtml:link rel="alternate" hreflang="zh-cn" href="https://timestamp.camera/zh-cn/" />
+    <xhtml:link rel="alternate" hreflang="zh-tw" href="https://timestamp.camera/zh-tw/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://timestamp.camera/pt/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://timestamp.camera/es/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://timestamp.camera/vi/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://timestamp.camera/th/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://timestamp.camera/hi/" />
+  </url>
+  <!-- Simplified Chinese index -->
+  <url>
+    <loc>https://timestamp.camera/zh-cn/</loc>
+    <lastmod>2026-03-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://timestamp.camera/en/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://timestamp.camera/ko/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://timestamp.camera/ja/" />
+    <xhtml:link rel="alternate" hreflang="zh-cn" href="https://timestamp.camera/zh-cn/" />
+    <xhtml:link rel="alternate" hreflang="zh-tw" href="https://timestamp.camera/zh-tw/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://timestamp.camera/pt/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://timestamp.camera/es/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://timestamp.camera/vi/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://timestamp.camera/th/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://timestamp.camera/hi/" />
+  </url>
+  <!-- Traditional Chinese index -->
+  <url>
+    <loc>https://timestamp.camera/zh-tw/</loc>
+    <lastmod>2026-03-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://timestamp.camera/en/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://timestamp.camera/ko/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://timestamp.camera/ja/" />
+    <xhtml:link rel="alternate" hreflang="zh-cn" href="https://timestamp.camera/zh-cn/" />
+    <xhtml:link rel="alternate" hreflang="zh-tw" href="https://timestamp.camera/zh-tw/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://timestamp.camera/pt/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://timestamp.camera/es/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://timestamp.camera/vi/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://timestamp.camera/th/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://timestamp.camera/hi/" />
+  </url>
+  <!-- Portuguese index -->
+  <url>
+    <loc>https://timestamp.camera/pt/</loc>
+    <lastmod>2026-03-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://timestamp.camera/en/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://timestamp.camera/ko/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://timestamp.camera/ja/" />
+    <xhtml:link rel="alternate" hreflang="zh-cn" href="https://timestamp.camera/zh-cn/" />
+    <xhtml:link rel="alternate" hreflang="zh-tw" href="https://timestamp.camera/zh-tw/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://timestamp.camera/pt/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://timestamp.camera/es/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://timestamp.camera/vi/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://timestamp.camera/th/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://timestamp.camera/hi/" />
+  </url>
+  <!-- Spanish index -->
+  <url>
+    <loc>https://timestamp.camera/es/</loc>
+    <lastmod>2026-03-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://timestamp.camera/en/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://timestamp.camera/ko/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://timestamp.camera/ja/" />
+    <xhtml:link rel="alternate" hreflang="zh-cn" href="https://timestamp.camera/zh-cn/" />
+    <xhtml:link rel="alternate" hreflang="zh-tw" href="https://timestamp.camera/zh-tw/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://timestamp.camera/pt/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://timestamp.camera/es/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://timestamp.camera/vi/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://timestamp.camera/th/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://timestamp.camera/hi/" />
+  </url>
+  <!-- Vietnamese index -->
+  <url>
+    <loc>https://timestamp.camera/vi/</loc>
+    <lastmod>2026-03-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://timestamp.camera/en/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://timestamp.camera/ko/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://timestamp.camera/ja/" />
+    <xhtml:link rel="alternate" hreflang="zh-cn" href="https://timestamp.camera/zh-cn/" />
+    <xhtml:link rel="alternate" hreflang="zh-tw" href="https://timestamp.camera/zh-tw/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://timestamp.camera/pt/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://timestamp.camera/es/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://timestamp.camera/vi/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://timestamp.camera/th/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://timestamp.camera/hi/" />
+  </url>
+  <!-- Thai index -->
+  <url>
+    <loc>https://timestamp.camera/th/</loc>
+    <lastmod>2026-03-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://timestamp.camera/en/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://timestamp.camera/ko/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://timestamp.camera/ja/" />
+    <xhtml:link rel="alternate" hreflang="zh-cn" href="https://timestamp.camera/zh-cn/" />
+    <xhtml:link rel="alternate" hreflang="zh-tw" href="https://timestamp.camera/zh-tw/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://timestamp.camera/pt/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://timestamp.camera/es/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://timestamp.camera/vi/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://timestamp.camera/th/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://timestamp.camera/hi/" />
+  </url>
+  <!-- Hindi index -->
+  <url>
+    <loc>https://timestamp.camera/hi/</loc>
+    <lastmod>2026-03-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://timestamp.camera/en/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://timestamp.camera/ko/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://timestamp.camera/ja/" />
+    <xhtml:link rel="alternate" hreflang="zh-cn" href="https://timestamp.camera/zh-cn/" />
+    <xhtml:link rel="alternate" hreflang="zh-tw" href="https://timestamp.camera/zh-tw/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://timestamp.camera/pt/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://timestamp.camera/es/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://timestamp.camera/vi/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://timestamp.camera/th/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://timestamp.camera/hi/" />
+  </url>
+
+  <!-- English tool page -->
+  <url>
+    <loc>https://timestamp.camera/en/add-date-to-photo/</loc>
+    <lastmod>2026-03-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://timestamp.camera/en/add-date-to-photo/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://timestamp.camera/ko/%EC%82%AC%EC%A7%84-%EB%82%A0%EC%A7%9C-%EB%84%A3%EA%B8%B0/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://timestamp.camera/ja/%E5%86%99%E7%9C%9F-%E6%97%A5%E4%BB%98-%E8%BF%BD%E5%8A%A0/" />
+    <xhtml:link rel="alternate" hreflang="zh-cn" href="https://timestamp.camera/zh-cn/%E7%85%A7%E7%89%87%E6%B7%BB%E5%8A%A0%E6%97%A5%E6%9C%9F/" />
+    <xhtml:link rel="alternate" hreflang="zh-tw" href="https://timestamp.camera/zh-tw/%E7%85%A7%E7%89%87%E5%8A%A0%E5%85%A5%E6%97%A5%E6%9C%9F/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://timestamp.camera/pt/adicionar-data-na-foto/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://timestamp.camera/es/agregar-fecha-a-foto/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://timestamp.camera/vi/them-ngay-vao-anh/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://timestamp.camera/th/%E0%B9%80%E0%B8%9E%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B9%83%E0%B8%99%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%A0%E0%B8%B2%E0%B8%9E/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://timestamp.camera/hi/photo-mein-date-lagaye/" />
+  </url>
+  <!-- Korean tool page -->
+  <url>
+    <loc>https://timestamp.camera/ko/%EC%82%AC%EC%A7%84-%EB%82%A0%EC%A7%9C-%EB%84%A3%EA%B8%B0/</loc>
+    <lastmod>2026-03-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://timestamp.camera/en/add-date-to-photo/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://timestamp.camera/ko/%EC%82%AC%EC%A7%84-%EB%82%A0%EC%A7%9C-%EB%84%A3%EA%B8%B0/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://timestamp.camera/ja/%E5%86%99%E7%9C%9F-%E6%97%A5%E4%BB%98-%E8%BF%BD%E5%8A%A0/" />
+    <xhtml:link rel="alternate" hreflang="zh-cn" href="https://timestamp.camera/zh-cn/%E7%85%A7%E7%89%87%E6%B7%BB%E5%8A%A0%E6%97%A5%E6%9C%9F/" />
+    <xhtml:link rel="alternate" hreflang="zh-tw" href="https://timestamp.camera/zh-tw/%E7%85%A7%E7%89%87%E5%8A%A0%E5%85%A5%E6%97%A5%E6%9C%9F/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://timestamp.camera/pt/adicionar-data-na-foto/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://timestamp.camera/es/agregar-fecha-a-foto/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://timestamp.camera/vi/them-ngay-vao-anh/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://timestamp.camera/th/%E0%B9%80%E0%B8%9E%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B9%83%E0%B8%99%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%A0%E0%B8%B2%E0%B8%9E/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://timestamp.camera/hi/photo-mein-date-lagaye/" />
+  </url>
+  <!-- Japanese tool page -->
+  <url>
+    <loc>https://timestamp.camera/ja/%E5%86%99%E7%9C%9F-%E6%97%A5%E4%BB%98-%E8%BF%BD%E5%8A%A0/</loc>
+    <lastmod>2026-03-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://timestamp.camera/en/add-date-to-photo/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://timestamp.camera/ko/%EC%82%AC%EC%A7%84-%EB%82%A0%EC%A7%9C-%EB%84%A3%EA%B8%B0/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://timestamp.camera/ja/%E5%86%99%E7%9C%9F-%E6%97%A5%E4%BB%98-%E8%BF%BD%E5%8A%A0/" />
+    <xhtml:link rel="alternate" hreflang="zh-cn" href="https://timestamp.camera/zh-cn/%E7%85%A7%E7%89%87%E6%B7%BB%E5%8A%A0%E6%97%A5%E6%9C%9F/" />
+    <xhtml:link rel="alternate" hreflang="zh-tw" href="https://timestamp.camera/zh-tw/%E7%85%A7%E7%89%87%E5%8A%A0%E5%85%A5%E6%97%A5%E6%9C%9F/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://timestamp.camera/pt/adicionar-data-na-foto/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://timestamp.camera/es/agregar-fecha-a-foto/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://timestamp.camera/vi/them-ngay-vao-anh/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://timestamp.camera/th/%E0%B9%80%E0%B8%9E%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B9%83%E0%B8%99%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%A0%E0%B8%B2%E0%B8%9E/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://timestamp.camera/hi/photo-mein-date-lagaye/" />
+  </url>
+  <!-- Simplified Chinese tool page -->
+  <url>
+    <loc>https://timestamp.camera/zh-cn/%E7%85%A7%E7%89%87%E6%B7%BB%E5%8A%A0%E6%97%A5%E6%9C%9F/</loc>
+    <lastmod>2026-03-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://timestamp.camera/en/add-date-to-photo/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://timestamp.camera/ko/%EC%82%AC%EC%A7%84-%EB%82%A0%EC%A7%9C-%EB%84%A3%EA%B8%B0/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://timestamp.camera/ja/%E5%86%99%E7%9C%9F-%E6%97%A5%E4%BB%98-%E8%BF%BD%E5%8A%A0/" />
+    <xhtml:link rel="alternate" hreflang="zh-cn" href="https://timestamp.camera/zh-cn/%E7%85%A7%E7%89%87%E6%B7%BB%E5%8A%A0%E6%97%A5%E6%9C%9F/" />
+    <xhtml:link rel="alternate" hreflang="zh-tw" href="https://timestamp.camera/zh-tw/%E7%85%A7%E7%89%87%E5%8A%A0%E5%85%A5%E6%97%A5%E6%9C%9F/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://timestamp.camera/pt/adicionar-data-na-foto/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://timestamp.camera/es/agregar-fecha-a-foto/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://timestamp.camera/vi/them-ngay-vao-anh/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://timestamp.camera/th/%E0%B9%80%E0%B8%9E%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B9%83%E0%B8%99%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%A0%E0%B8%B2%E0%B8%9E/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://timestamp.camera/hi/photo-mein-date-lagaye/" />
+  </url>
+  <!-- Traditional Chinese tool page -->
+  <url>
+    <loc>https://timestamp.camera/zh-tw/%E7%85%A7%E7%89%87%E5%8A%A0%E5%85%A5%E6%97%A5%E6%9C%9F/</loc>
+    <lastmod>2026-03-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://timestamp.camera/en/add-date-to-photo/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://timestamp.camera/ko/%EC%82%AC%EC%A7%84-%EB%82%A0%EC%A7%9C-%EB%84%A3%EA%B8%B0/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://timestamp.camera/ja/%E5%86%99%E7%9C%9F-%E6%97%A5%E4%BB%98-%E8%BF%BD%E5%8A%A0/" />
+    <xhtml:link rel="alternate" hreflang="zh-cn" href="https://timestamp.camera/zh-cn/%E7%85%A7%E7%89%87%E6%B7%BB%E5%8A%A0%E6%97%A5%E6%9C%9F/" />
+    <xhtml:link rel="alternate" hreflang="zh-tw" href="https://timestamp.camera/zh-tw/%E7%85%A7%E7%89%87%E5%8A%A0%E5%85%A5%E6%97%A5%E6%9C%9F/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://timestamp.camera/pt/adicionar-data-na-foto/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://timestamp.camera/es/agregar-fecha-a-foto/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://timestamp.camera/vi/them-ngay-vao-anh/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://timestamp.camera/th/%E0%B9%80%E0%B8%9E%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B9%83%E0%B8%99%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%A0%E0%B8%B2%E0%B8%9E/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://timestamp.camera/hi/photo-mein-date-lagaye/" />
+  </url>
+  <!-- Portuguese tool page -->
+  <url>
+    <loc>https://timestamp.camera/pt/adicionar-data-na-foto/</loc>
+    <lastmod>2026-03-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://timestamp.camera/en/add-date-to-photo/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://timestamp.camera/ko/%EC%82%AC%EC%A7%84-%EB%82%A0%EC%A7%9C-%EB%84%A3%EA%B8%B0/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://timestamp.camera/ja/%E5%86%99%E7%9C%9F-%E6%97%A5%E4%BB%98-%E8%BF%BD%E5%8A%A0/" />
+    <xhtml:link rel="alternate" hreflang="zh-cn" href="https://timestamp.camera/zh-cn/%E7%85%A7%E7%89%87%E6%B7%BB%E5%8A%A0%E6%97%A5%E6%9C%9F/" />
+    <xhtml:link rel="alternate" hreflang="zh-tw" href="https://timestamp.camera/zh-tw/%E7%85%A7%E7%89%87%E5%8A%A0%E5%85%A5%E6%97%A5%E6%9C%9F/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://timestamp.camera/pt/adicionar-data-na-foto/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://timestamp.camera/es/agregar-fecha-a-foto/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://timestamp.camera/vi/them-ngay-vao-anh/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://timestamp.camera/th/%E0%B9%80%E0%B8%9E%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B9%83%E0%B8%99%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%A0%E0%B8%B2%E0%B8%9E/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://timestamp.camera/hi/photo-mein-date-lagaye/" />
+  </url>
+  <!-- Spanish tool page -->
+  <url>
+    <loc>https://timestamp.camera/es/agregar-fecha-a-foto/</loc>
+    <lastmod>2026-03-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://timestamp.camera/en/add-date-to-photo/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://timestamp.camera/ko/%EC%82%AC%EC%A7%84-%EB%82%A0%EC%A7%9C-%EB%84%A3%EA%B8%B0/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://timestamp.camera/ja/%E5%86%99%E7%9C%9F-%E6%97%A5%E4%BB%98-%E8%BF%BD%E5%8A%A0/" />
+    <xhtml:link rel="alternate" hreflang="zh-cn" href="https://timestamp.camera/zh-cn/%E7%85%A7%E7%89%87%E6%B7%BB%E5%8A%A0%E6%97%A5%E6%9C%9F/" />
+    <xhtml:link rel="alternate" hreflang="zh-tw" href="https://timestamp.camera/zh-tw/%E7%85%A7%E7%89%87%E5%8A%A0%E5%85%A5%E6%97%A5%E6%9C%9F/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://timestamp.camera/pt/adicionar-data-na-foto/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://timestamp.camera/es/agregar-fecha-a-foto/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://timestamp.camera/vi/them-ngay-vao-anh/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://timestamp.camera/th/%E0%B9%80%E0%B8%9E%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B9%83%E0%B8%99%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%A0%E0%B8%B2%E0%B8%9E/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://timestamp.camera/hi/photo-mein-date-lagaye/" />
+  </url>
+  <!-- Vietnamese tool page -->
+  <url>
+    <loc>https://timestamp.camera/vi/them-ngay-vao-anh/</loc>
+    <lastmod>2026-03-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://timestamp.camera/en/add-date-to-photo/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://timestamp.camera/ko/%EC%82%AC%EC%A7%84-%EB%82%A0%EC%A7%9C-%EB%84%A3%EA%B8%B0/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://timestamp.camera/ja/%E5%86%99%E7%9C%9F-%E6%97%A5%E4%BB%98-%E8%BF%BD%E5%8A%A0/" />
+    <xhtml:link rel="alternate" hreflang="zh-cn" href="https://timestamp.camera/zh-cn/%E7%85%A7%E7%89%87%E6%B7%BB%E5%8A%A0%E6%97%A5%E6%9C%9F/" />
+    <xhtml:link rel="alternate" hreflang="zh-tw" href="https://timestamp.camera/zh-tw/%E7%85%A7%E7%89%87%E5%8A%A0%E5%85%A5%E6%97%A5%E6%9C%9F/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://timestamp.camera/pt/adicionar-data-na-foto/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://timestamp.camera/es/agregar-fecha-a-foto/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://timestamp.camera/vi/them-ngay-vao-anh/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://timestamp.camera/th/%E0%B9%80%E0%B8%9E%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B9%83%E0%B8%99%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%A0%E0%B8%B2%E0%B8%9E/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://timestamp.camera/hi/photo-mein-date-lagaye/" />
+  </url>
+  <!-- Thai tool page -->
+  <url>
+    <loc>https://timestamp.camera/th/%E0%B9%80%E0%B8%9E%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B9%83%E0%B8%99%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%A0%E0%B8%B2%E0%B8%9E/</loc>
+    <lastmod>2026-03-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://timestamp.camera/en/add-date-to-photo/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://timestamp.camera/ko/%EC%82%AC%EC%A7%84-%EB%82%A0%EC%A7%9C-%EB%84%A3%EA%B8%B0/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://timestamp.camera/ja/%E5%86%99%E7%9C%9F-%E6%97%A5%E4%BB%98-%E8%BF%BD%E5%8A%A0/" />
+    <xhtml:link rel="alternate" hreflang="zh-cn" href="https://timestamp.camera/zh-cn/%E7%85%A7%E7%89%87%E6%B7%BB%E5%8A%A0%E6%97%A5%E6%9C%9F/" />
+    <xhtml:link rel="alternate" hreflang="zh-tw" href="https://timestamp.camera/zh-tw/%E7%85%A7%E7%89%87%E5%8A%A0%E5%85%A5%E6%97%A5%E6%9C%9F/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://timestamp.camera/pt/adicionar-data-na-foto/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://timestamp.camera/es/agregar-fecha-a-foto/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://timestamp.camera/vi/them-ngay-vao-anh/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://timestamp.camera/th/%E0%B9%80%E0%B8%9E%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B9%83%E0%B8%99%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%A0%E0%B8%B2%E0%B8%9E/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://timestamp.camera/hi/photo-mein-date-lagaye/" />
+  </url>
+  <!-- Hindi tool page -->
+  <url>
+    <loc>https://timestamp.camera/hi/photo-mein-date-lagaye/</loc>
+    <lastmod>2026-03-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://timestamp.camera/en/add-date-to-photo/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://timestamp.camera/ko/%EC%82%AC%EC%A7%84-%EB%82%A0%EC%A7%9C-%EB%84%A3%EA%B8%B0/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://timestamp.camera/ja/%E5%86%99%E7%9C%9F-%E6%97%A5%E4%BB%98-%E8%BF%BD%E5%8A%A0/" />
+    <xhtml:link rel="alternate" hreflang="zh-cn" href="https://timestamp.camera/zh-cn/%E7%85%A7%E7%89%87%E6%B7%BB%E5%8A%A0%E6%97%A5%E6%9C%9F/" />
+    <xhtml:link rel="alternate" hreflang="zh-tw" href="https://timestamp.camera/zh-tw/%E7%85%A7%E7%89%87%E5%8A%A0%E5%85%A5%E6%97%A5%E6%9C%9F/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://timestamp.camera/pt/adicionar-data-na-foto/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://timestamp.camera/es/agregar-fecha-a-foto/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://timestamp.camera/vi/them-ngay-vao-anh/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://timestamp.camera/th/%E0%B9%80%E0%B8%9E%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B9%83%E0%B8%99%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%A0%E0%B8%B2%E0%B8%9E/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://timestamp.camera/hi/photo-mein-date-lagaye/" />
+  </url>
+</urlset>

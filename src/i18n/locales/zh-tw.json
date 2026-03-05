@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "title": "照片加入日期浮水印 | 時間戳相機App",
+    "description": "時間戳相機自動為照片加入日期和時間。輕鬆記錄飲食、運動、讀書和日常生活。",
+    "toolTitle": "線上為照片加入日期 - 免費工具",
+    "toolDescription": "線上免費為照片加入日期和時間浮水印。免註冊，瀏覽器直接使用。"
+  },
+  "nav": {
+    "features": "功能",
+    "screenshots": "截圖",
+    "faq": "常見問題",
+    "download": "下載",
+    "tool": "照片加入日期",
+    "darkMode": "深色模式",
+    "lightMode": "淺色模式"
+  },
+  "hero": {
+    "title": "為照片加入\n日期和時間浮水印",
+    "subtitle": "記錄你的飲食、運動、讀書和日常點滴。為照片加上時間戳最簡單的方式。",
+    "cta": "免費下載",
+    "webTool": "試用線上工具"
+  },
+  "features": {
+    "title": "核心功能",
+    "items": [
+      {
+        "title": "自動時間戳",
+        "description": "拍照時自動加入日期和時間浮水印。"
+      },
+      {
+        "title": "相簿匯入",
+        "description": "為相簿中已有的照片加入時間戳。"
+      },
+      {
+        "title": "多種樣式",
+        "description": "多種浮水印樣式和顏色可供選擇。"
+      },
+      {
+        "title": "即時儲存",
+        "description": "拍攝後照片立即儲存。"
+      },
+      {
+        "title": "飲食與運動記錄",
+        "description": "非常適合記錄減肥餐和運動打卡。"
+      },
+      {
+        "title": "讀書打卡",
+        "description": "用帶時間戳的照片證明你的讀書時間和起床時間。"
+      }
+    ]
+  },
+  "screenshots": {
+    "title": "應用程式截圖"
+  },
+  "faq": {
+    "title": "常見問題",
+    "items": [
+      {
+        "question": "時間戳相機是免費的嗎？",
+        "answer": "是的，基本功能免費使用。進階訂閱（NT$650/年）可移除廣告並解鎖所有進階浮水印樣式。"
+      },
+      {
+        "question": "支援哪些裝置？",
+        "answer": "時間戳相機支援 iOS（15.0 或更新版本）和 Android 裝置。"
+      },
+      {
+        "question": "可以為已有的照片加入時間戳嗎？",
+        "answer": "當然可以！你可以從相簿匯入照片並加入時間戳浮水印。"
+      },
+      {
+        "question": "時間戳準確嗎？",
+        "answer": "時間戳從照片的 EXIF 資料中讀取準確的拍攝日期和時間，確保準確無誤。"
+      },
+      {
+        "question": "可以自訂浮水印樣式嗎？",
+        "answer": "可以，你可以選擇多種樣式和顏色。進階訂閱用戶可以使用所有浮水印樣式。"
+      },
+      {
+        "question": "有哪些使用情境？",
+        "answer": "常見用途包括飲食記錄、運動打卡、讀書證明、起床打卡、寶寶成長記錄、工作時間記錄和旅行日記。"
+      }
+    ]
+  },
+  "download": {
+    "title": "立即下載",
+    "subtitle": "支援 iOS 和 Android",
+    "appStore": "App Store",
+    "playStore": "Google Play"
+  },
+  "footer": {
+    "privacy": "隱私權政策",
+    "terms": "服務條款",
+    "contact": "聯絡我們",
+    "copyright": "Artify Inc. 保留所有權利。"
+  },
+  "tool": {
+    "title": "照片加入日期",
+    "subtitle": "上傳照片並加入日期時間浮水印。免費使用，無需註冊。",
+    "upload": "上傳照片",
+    "uploadHint": "拖放或點擊選擇檔案",
+    "processing": "處理中...",
+    "download": "下載",
+    "reset": "上傳其他照片",
+    "noExif": "未找到此照片的日期資訊，將使用目前日期/時間代替。",
+    "ctaBanner": "想要更多浮水印樣式？試試我們的App！",
+    "ctaButton": "下載App"
+  }
+}

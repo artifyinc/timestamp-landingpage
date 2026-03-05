@@ -14,10 +14,10 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Download app-ads.txt from daro.so
-        run: curl -o app-ads.txt https://publisher.daro.so/app-ads.txt
+        run: curl -o public/app-ads.txt https://publisher.daro.so/app-ads.txt
 
       - name: Append app-ads.google.txt
-        run: cat app-ads.google.txt >> app-ads.txt
+        run: cat app-ads.google.txt >> public/app-ads.txt
 
       - name: Configure git
         run: |
@@ -27,7 +27,7 @@ jobs:
       - name: Commit and push changes
         run: |
           if [ -n "$(git status --porcelain)" ]; then
-            git add app-ads.txt
+            git add public/app-ads.txt
             git commit -m "Update app-ads.txt from daro.so"
             git push
           else

@@ -1,0 +1,40 @@
+---
+import type { TranslationData } from '../i18n/index';
+
+interface Props {
+  t: TranslationData;
+  locale: string;
+}
+
+const { t, locale } = Astro.props;
+---
+
+<section id="faq" class="py-20 sm:py-24 bg-white dark:bg-gray-950">
+  <div class="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
+    <h2 class="text-3xl sm:text-4xl font-bold text-center text-gray-900 dark:text-white">
+      {t.faq.title}
+    </h2>
+
+    <div class="mt-14 divide-y divide-gray-200 dark:divide-gray-800">
+      {t.faq.items.map((item) => (
+        <details class="group py-5">
+          <summary class="flex cursor-pointer items-center justify-between text-left text-base font-semibold text-gray-900 dark:text-white list-none [&::-webkit-details-marker]:hidden">
+            <span class="pr-4">{item.question}</span>
+            <svg
+              class="h-5 w-5 shrink-0 text-gray-400 transition-transform duration-200 group-open:rotate-180"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path d="M19 9l-7 7-7-7" />
+            </svg>
+          </summary>
+          <p class="mt-3 text-sm leading-relaxed text-gray-600 dark:text-gray-400">
+            {item.answer}
+          </p>
+        </details>
+      ))}
+    </div>
+  </div>
+</section>

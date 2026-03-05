@@ -1,0 +1,43 @@
+---
+import type { TranslationData } from '../i18n/index';
+
+interface Props {
+  t: TranslationData;
+}
+
+const { t } = Astro.props;
+const year = new Date().getFullYear();
+---
+
+<footer class="border-t border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950">
+  <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-10">
+    <div class="flex flex-col sm:flex-row items-center justify-between gap-6">
+      <!-- Links -->
+      <nav class="flex flex-wrap items-center justify-center gap-6 text-sm">
+        <a
+          href="/privacy.html"
+          class="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors"
+        >
+          {t.footer.privacy}
+        </a>
+        <a
+          href="/terms.html"
+          class="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors"
+        >
+          {t.footer.terms}
+        </a>
+        <a
+          href="mailto:contact@timestamp.camera"
+          class="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors"
+        >
+          {t.footer.contact}
+        </a>
+      </nav>
+
+      <!-- Copyright -->
+      <p class="text-sm text-gray-500 dark:text-gray-500">
+        &copy; {year} {t.footer.copyright}
+      </p>
+    </div>
+  </div>
+</footer>

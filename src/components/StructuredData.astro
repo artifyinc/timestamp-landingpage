@@ -1,0 +1,102 @@
+---
+interface Props {
+  locale: string;
+  t: any;
+  type: 'landing' | 'tool';
+}
+
+const { locale, t, type } = Astro.props;
+
+const baseUrl = 'https://timestamp.camera';
+
+const organizationSchema = {
+  "@type": "Organization",
+  "name": "Artify Inc.",
+  "url": baseUrl,
+  "logo": `${baseUrl}/images/icon.png`,
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "email": "contact@timestamp.camera",
+    "contactType": "customer service",
+  },
+};
+
+const appSchema = {
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Timestamp Camera",
+  "operatingSystem": "iOS, Android",
+  "applicationCategory": "PhotographyApplication",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "ratingCount": "139723",
+    "bestRating": "5",
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD",
+  },
+  "author": organizationSchema,
+  "description": t.meta.description,
+  "url": `${baseUrl}/${locale}/`,
+  "image": `${baseUrl}/images/icon.png`,
+};
+
+const faqSchema = t.faq?.items?.length ? {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": t.faq.items.map((item: any) => ({
+    "@type": "Question",
+    "name": item.question,
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": item.answer,
+    },
+  })),
+} : null;
+
+const webAppSchema = type === 'tool' ? {
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": t.tool.title,
+  "description": t.meta.toolDescription,
+  "url": Astro.url.href,
+  "applicationCategory": "PhotographyApplication",
+  "operatingSystem": "Any",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD",
+  },
+  "author": organizationSchema,
+} : null;
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": `${baseUrl}/${locale}/`,
+    },
+    ...(type === 'tool' ? [{
+      "@type": "ListItem",
+      "position": 2,
+      "name": t.tool.title,
+      "item": Astro.url.href,
+    }] : []),
+  ],
+};
+
+const schemas = [appSchema, breadcrumbSchema];
+if (faqSchema) schemas.push(faqSchema);
+if (webAppSchema) schemas.push(webAppSchema);
+---
+
+{schemas.map((schema) => (
+  <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+))}

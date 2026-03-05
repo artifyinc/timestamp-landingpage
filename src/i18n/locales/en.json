@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "title": "Add Date & Time to Photos | Timestamp Camera App",
+    "description": "Timestamp Camera stamps date and time on your photos automatically. Record your meals, workouts, studies, and daily life with proof.",
+    "toolTitle": "Add Date to Photo Online - Free Tool",
+    "toolDescription": "Add date and time stamp to your photos online for free. No registration required. Works in your browser."
+  },
+  "nav": {
+    "features": "Features",
+    "screenshots": "Screenshots",
+    "faq": "FAQ",
+    "download": "Download",
+    "tool": "Add Date to Photo",
+    "darkMode": "Dark Mode",
+    "lightMode": "Light Mode"
+  },
+  "hero": {
+    "title": "Stamp Date & Time\non Your Photos",
+    "subtitle": "Record your meals, workouts, studies, and daily moments. The easiest way to add timestamps to your photos.",
+    "cta": "Download Free",
+    "webTool": "Try Online Tool"
+  },
+  "features": {
+    "title": "Key Features",
+    "items": [
+      {
+        "title": "Auto Timestamp",
+        "description": "Automatically stamps the date and time when you take a photo."
+      },
+      {
+        "title": "Album Import",
+        "description": "Add timestamps to photos already in your album."
+      },
+      {
+        "title": "Various Designs",
+        "description": "Choose from multiple stamp designs and colors."
+      },
+      {
+        "title": "Instant Save",
+        "description": "Photos are saved immediately after capture."
+      },
+      {
+        "title": "Meal & Workout Log",
+        "description": "Perfect for recording diet meals and exercise routines."
+      },
+      {
+        "title": "Study Proof",
+        "description": "Prove your study sessions and wake-up times with timestamped photos."
+      }
+    ]
+  },
+  "screenshots": {
+    "title": "App Screenshots"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "Is Timestamp Camera free?",
+        "answer": "Yes, the app is free to use. A premium subscription ($19.99/year) removes ads and unlocks all premium stamp designs."
+      },
+      {
+        "question": "Which devices are supported?",
+        "answer": "Timestamp Camera is available on iOS (15.0 or later) and Android devices."
+      },
+      {
+        "question": "Can I add timestamps to existing photos?",
+        "answer": "Yes! You can import photos from your album and add timestamp stamps to them."
+      },
+      {
+        "question": "Is the timestamp accurate?",
+        "answer": "The timestamp reads the exact date and time from the photo's EXIF data, ensuring accuracy."
+      },
+      {
+        "question": "Can I customize the stamp design?",
+        "answer": "Yes, you can choose from various designs and colors. Premium subscribers get access to all stamp designs."
+      },
+      {
+        "question": "What can I use it for?",
+        "answer": "Popular uses include meal logging, workout tracking, study proof, wake-up verification, baby growth records, work time documentation, and travel journaling."
+      }
+    ]
+  },
+  "download": {
+    "title": "Download Now",
+    "subtitle": "Available on iOS and Android",
+    "appStore": "App Store",
+    "playStore": "Google Play"
+  },
+  "footer": {
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "contact": "Contact",
+    "copyright": "Artify Inc. All rights reserved."
+  },
+  "tool": {
+    "title": "Add Date to Photo",
+    "subtitle": "Upload a photo and add a date & time stamp. Free, no registration required.",
+    "upload": "Upload Photo",
+    "uploadHint": "Drag & drop or click to select",
+    "processing": "Processing...",
+    "download": "Download",
+    "reset": "Upload Another",
+    "noExif": "No date information found in this photo. The current date/time will be used instead.",
+    "ctaBanner": "Want more stamp designs? Try the app!",
+    "ctaButton": "Download App"
+  }
+}

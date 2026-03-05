@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "title": "Thêm Ngày Giờ Vào Ảnh | Ứng Dụng Timestamp Camera",
+    "description": "Timestamp Camera tự động đóng dấu ngày giờ lên ảnh của bạn. Ghi lại bữa ăn, tập luyện, học tập và cuộc sống hàng ngày.",
+    "toolTitle": "Thêm Ngày Vào Ảnh Online - Công Cụ Miễn Phí",
+    "toolDescription": "Thêm dấu ngày giờ vào ảnh trực tuyến miễn phí. Không cần đăng ký. Hoạt động ngay trên trình duyệt."
+  },
+  "nav": {
+    "features": "Tính năng",
+    "screenshots": "Ảnh chụp màn hình",
+    "faq": "Câu hỏi thường gặp",
+    "download": "Tải xuống",
+    "tool": "Thêm Ngày Vào Ảnh",
+    "darkMode": "Chế độ tối",
+    "lightMode": "Chế độ sáng"
+  },
+  "hero": {
+    "title": "Đóng Dấu Ngày Giờ\nLên Ảnh Của Bạn",
+    "subtitle": "Ghi lại bữa ăn, tập luyện, học tập và khoảnh khắc hàng ngày. Cách dễ nhất để thêm dấu thời gian vào ảnh.",
+    "cta": "Tải Miễn Phí",
+    "webTool": "Dùng Thử Online"
+  },
+  "features": {
+    "title": "Tính Năng Chính",
+    "items": [
+      {
+        "title": "Tự Động Đóng Dấu",
+        "description": "Tự động thêm ngày giờ khi bạn chụp ảnh."
+      },
+      {
+        "title": "Nhập Từ Album",
+        "description": "Thêm dấu thời gian vào ảnh đã có trong album."
+      },
+      {
+        "title": "Đa Dạng Thiết Kế",
+        "description": "Chọn từ nhiều kiểu dấu và màu sắc khác nhau."
+      },
+      {
+        "title": "Lưu Ngay Lập Tức",
+        "description": "Ảnh được lưu ngay sau khi chụp."
+      },
+      {
+        "title": "Ghi Chép Bữa Ăn & Tập Luyện",
+        "description": "Hoàn hảo để ghi lại chế độ ăn và lịch tập luyện."
+      },
+      {
+        "title": "Chứng Minh Học Tập",
+        "description": "Chứng minh thời gian học và giờ thức dậy bằng ảnh có dấu thời gian."
+      }
+    ]
+  },
+  "screenshots": {
+    "title": "Ảnh Chụp Màn Hình"
+  },
+  "faq": {
+    "title": "Câu Hỏi Thường Gặp",
+    "items": [
+      {
+        "question": "Timestamp Camera có miễn phí không?",
+        "answer": "Có, ứng dụng miễn phí. Gói đăng ký premium ($19.99/năm) sẽ xóa quảng cáo và mở khóa tất cả thiết kế dấu cao cấp."
+      },
+      {
+        "question": "Hỗ trợ những thiết bị nào?",
+        "answer": "Timestamp Camera có sẵn trên iOS (15.0 trở lên) và các thiết bị Android."
+      },
+      {
+        "question": "Tôi có thể thêm dấu thời gian vào ảnh đã chụp không?",
+        "answer": "Có! Bạn có thể nhập ảnh từ album và thêm dấu thời gian lên ảnh."
+      },
+      {
+        "question": "Dấu thời gian có chính xác không?",
+        "answer": "Dấu thời gian đọc ngày giờ chính xác từ dữ liệu EXIF của ảnh, đảm bảo độ chính xác."
+      },
+      {
+        "question": "Tôi có thể tùy chỉnh thiết kế dấu không?",
+        "answer": "Có, bạn có thể chọn từ nhiều thiết kế và màu sắc. Người dùng premium được sử dụng tất cả thiết kế dấu."
+      },
+      {
+        "question": "Tôi có thể dùng vào việc gì?",
+        "answer": "Các ứng dụng phổ biến bao gồm ghi chép bữa ăn, theo dõi tập luyện, chứng minh học tập, xác nhận giờ thức dậy, ghi lại sự phát triển của bé, ghi nhận giờ làm việc và nhật ký du lịch."
+      }
+    ]
+  },
+  "download": {
+    "title": "Tải Ngay",
+    "subtitle": "Có sẵn trên iOS và Android",
+    "appStore": "App Store",
+    "playStore": "Google Play"
+  },
+  "footer": {
+    "privacy": "Chính Sách Bảo Mật",
+    "terms": "Điều Khoản Dịch Vụ",
+    "contact": "Liên Hệ",
+    "copyright": "Artify Inc. Bảo lưu mọi quyền."
+  },
+  "tool": {
+    "title": "Thêm Ngày Vào Ảnh",
+    "subtitle": "Tải ảnh lên và thêm dấu ngày giờ. Miễn phí, không cần đăng ký.",
+    "upload": "Tải Ảnh Lên",
+    "uploadHint": "Kéo thả hoặc nhấp để chọn",
+    "processing": "Đang xử lý...",
+    "download": "Tải Xuống",
+    "reset": "Tải Ảnh Khác",
+    "noExif": "Không tìm thấy thông tin ngày trong ảnh này. Ngày/giờ hiện tại sẽ được sử dụng thay thế.",
+    "ctaBanner": "Muốn thêm nhiều thiết kế dấu? Hãy thử ứng dụng!",
+    "ctaButton": "Tải Ứng Dụng"
+  }
+}

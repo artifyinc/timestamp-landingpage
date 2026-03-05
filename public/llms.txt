@@ -1,0 +1,38 @@
+# Timestamp Camera
+
+> Timestamp Camera is a mobile app that stamps date and time on your photos automatically.
+
+## About
+
+Timestamp Camera helps users record daily moments with date and time proof. Available on iOS and Android with 4.8 stars from 140K+ reviews.
+
+## Key Features
+
+- Auto Timestamp: Automatically stamps date and time when you take a photo
+- Album Import: Add timestamps to existing photos from your album
+- Various Designs: Multiple stamp designs and colors to choose from
+- Instant Save: Photos are saved immediately after capture
+
+## Popular Use Cases
+
+- Meal and diet logging
+- Workout tracking
+- Study session proof
+- Wake-up time verification
+- Baby growth records
+- Work time documentation
+- Travel journaling
+
+## Links
+
+- Website: https://timestamp.camera
+- iOS App: https://apps.apple.com/app/id1115974495
+- Android App: https://play.google.com/store/apps/details?id=com.artifyapp.timestamp
+- Online Tool: https://timestamp.camera/en/add-date-to-photo/
+- Privacy Policy: https://timestamp.camera/privacy.html
+- Terms of Service: https://timestamp.camera/terms.html
+- Contact: contact@timestamp.camera
+
+## Developer
+
+Artify Inc.

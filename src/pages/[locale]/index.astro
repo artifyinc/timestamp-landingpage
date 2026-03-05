@@ -1,0 +1,51 @@
+---
+import { locales, getLocaleData } from '../../i18n/index';
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+import Hero from '../../components/Hero.astro';
+import Features from '../../components/Features.astro';
+import Screenshots from '../../components/Screenshots.astro';
+import FAQ from '../../components/FAQ.astro';
+import Download from '../../components/Download.astro';
+import Footer from '../../components/Footer.astro';
+import StructuredData from '../../components/StructuredData.astro';
+
+export async function getStaticPaths() {
+  return locales.map((l) => ({
+    params: { locale: l.code },
+    props: { locale: l.code },
+  }));
+}
+
+const { locale } = Astro.props;
+const t = await getLocaleData(locale);
+
+const baseUrl = 'https://timestamp.camera';
+
+const alternateLocales = locales.map((l) => ({
+  locale: l.code,
+  url: `${baseUrl}/${l.code}/`,
+}));
+
+const canonicalUrl = `${baseUrl}/${locale}/`;
+---
+
+<Layout
+  title={t.meta.title}
+  description={t.meta.description}
+  locale={locale}
+  alternateLocales={alternateLocales}
+  canonicalUrl={canonicalUrl}
+  ogImage={`${baseUrl}/images/home.jpg`}
+>
+  <StructuredData locale={locale} t={t} type="landing" />
+  <Header locale={locale} t={t} />
+  <main>
+    <Hero locale={locale} t={t} />
+    <Features t={t} />
+    <Screenshots t={t} />
+    <FAQ t={t} locale={locale} />
+    <Download t={t} />
+  </main>
+  <Footer t={t} />
+</Layout>

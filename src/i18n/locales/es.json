@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "title": "Agregar Fecha y Hora a Fotos | App Timestamp Camera",
+    "description": "Timestamp Camera estampa la fecha y hora en tus fotos automáticamente. Registra tus comidas, entrenamientos, estudios y vida diaria con pruebas.",
+    "toolTitle": "Agregar Fecha a Foto Online - Herramienta Gratuita",
+    "toolDescription": "Agrega sello de fecha y hora a tus fotos en línea gratis. Sin registro. Funciona en tu navegador."
+  },
+  "nav": {
+    "features": "Funciones",
+    "screenshots": "Capturas",
+    "faq": "Preguntas Frecuentes",
+    "download": "Descargar",
+    "tool": "Agregar Fecha a Foto",
+    "darkMode": "Modo Oscuro",
+    "lightMode": "Modo Claro"
+  },
+  "hero": {
+    "title": "Estampa Fecha y Hora\nen Tus Fotos",
+    "subtitle": "Registra tus comidas, entrenamientos, estudios y momentos diarios. La forma más fácil de agregar fecha y hora a tus fotos.",
+    "cta": "Descargar Gratis",
+    "webTool": "Probar Herramienta Online"
+  },
+  "features": {
+    "title": "Funciones Principales",
+    "items": [
+      {
+        "title": "Sello Automático",
+        "description": "Estampa automáticamente la fecha y hora al tomar una foto."
+      },
+      {
+        "title": "Importar del Álbum",
+        "description": "Agrega sellos de fecha a fotos que ya están en tu álbum."
+      },
+      {
+        "title": "Diseños Variados",
+        "description": "Elige entre múltiples diseños y colores de sellos."
+      },
+      {
+        "title": "Guardado Instantáneo",
+        "description": "Las fotos se guardan inmediatamente después de la captura."
+      },
+      {
+        "title": "Registro de Comidas y Ejercicio",
+        "description": "Perfecto para registrar dietas y rutinas de ejercicio."
+      },
+      {
+        "title": "Prueba de Estudio",
+        "description": "Demuestra tus sesiones de estudio y horarios de despertar con fotos con sello de tiempo."
+      }
+    ]
+  },
+  "screenshots": {
+    "title": "Capturas de la App"
+  },
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "items": [
+      {
+        "question": "¿Timestamp Camera es gratis?",
+        "answer": "Sí, la app es gratuita. Una suscripción premium ($19.99/año) elimina los anuncios y desbloquea todos los diseños de sellos premium."
+      },
+      {
+        "question": "¿Qué dispositivos son compatibles?",
+        "answer": "Timestamp Camera está disponible en iOS (15.0 o posterior) y dispositivos Android."
+      },
+      {
+        "question": "¿Puedo agregar sellos a fotos existentes?",
+        "answer": "¡Sí! Puedes importar fotos de tu álbum y agregar sellos de fecha y hora."
+      },
+      {
+        "question": "¿El sello de fecha es preciso?",
+        "answer": "El sello lee la fecha y hora exactas de los datos EXIF de la foto, asegurando precisión."
+      },
+      {
+        "question": "¿Puedo personalizar el diseño del sello?",
+        "answer": "Sí, puedes elegir entre varios diseños y colores. Los suscriptores premium tienen acceso a todos los diseños de sellos."
+      },
+      {
+        "question": "¿Para qué puedo usarlo?",
+        "answer": "Usos populares incluyen registro de comidas, seguimiento de ejercicios, prueba de estudio, verificación de horario de despertar, registro de crecimiento del bebé, documentación de horario laboral y diario de viaje."
+      }
+    ]
+  },
+  "download": {
+    "title": "Descarga Ahora",
+    "subtitle": "Disponible en iOS y Android",
+    "appStore": "App Store",
+    "playStore": "Google Play"
+  },
+  "footer": {
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "contact": "Contacto",
+    "copyright": "Artify Inc. Todos los derechos reservados."
+  },
+  "tool": {
+    "title": "Agregar Fecha a Foto",
+    "subtitle": "Sube una foto y agrega un sello de fecha y hora. Gratis, sin registro.",
+    "upload": "Subir Foto",
+    "uploadHint": "Arrastra y suelta o haz clic para seleccionar",
+    "processing": "Procesando...",
+    "download": "Descargar",
+    "reset": "Subir Otra Foto",
+    "noExif": "No se encontró información de fecha en esta foto. Se usará la fecha/hora actual en su lugar.",
+    "ctaBanner": "¿Quieres más diseños de sellos? ¡Prueba la app!",
+    "ctaButton": "Descargar App"
+  }
+}

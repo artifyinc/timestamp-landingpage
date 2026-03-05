@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "title": "照片添加日期水印 | 时间戳相机App",
+    "description": "时间戳相机自动为照片添加日期和时间水印。轻松记录饮食、健身、学习和日常生活。",
+    "toolTitle": "在线给照片添加日期 - 免费工具",
+    "toolDescription": "在线免费为照片添加日期和时间水印。无需注册，浏览器直接使用。"
+  },
+  "nav": {
+    "features": "功能",
+    "screenshots": "截图",
+    "faq": "常见问题",
+    "download": "下载",
+    "tool": "照片添加日期",
+    "darkMode": "深色模式",
+    "lightMode": "浅色模式"
+  },
+  "hero": {
+    "title": "为照片添加\n日期和时间水印",
+    "subtitle": "记录你的饮食、健身、学习和日常点滴。给照片加时间戳最简单的方式。",
+    "cta": "免费下载",
+    "webTool": "试用在线工具"
+  },
+  "features": {
+    "title": "核心功能",
+    "items": [
+      {
+        "title": "自动时间戳",
+        "description": "拍照时自动添加日期和时间水印。"
+      },
+      {
+        "title": "相册导入",
+        "description": "为相册中已有的照片添加时间戳。"
+      },
+      {
+        "title": "多种样式",
+        "description": "多种水印样式和颜色可供选择。"
+      },
+      {
+        "title": "即时保存",
+        "description": "拍摄后照片立即保存。"
+      },
+      {
+        "title": "饮食与健身记录",
+        "description": "非常适合记录减肥餐和运动打卡。"
+      },
+      {
+        "title": "学习打卡",
+        "description": "用带时间戳的照片证明你的学习时间和起床时间。"
+      }
+    ]
+  },
+  "screenshots": {
+    "title": "应用截图"
+  },
+  "faq": {
+    "title": "常见问题",
+    "items": [
+      {
+        "question": "时间戳相机是免费的吗？",
+        "answer": "是的，基本功能免费使用。高级订阅（¥158/年）可去除广告并解锁所有高级水印样式。"
+      },
+      {
+        "question": "支持哪些设备？",
+        "answer": "时间戳相机支持 iOS（15.0 或更高版本）和 Android 设备。"
+      },
+      {
+        "question": "可以给已有的照片添加时间戳吗？",
+        "answer": "当然可以！你可以从相册导入照片并添加时间戳水印。"
+      },
+      {
+        "question": "时间戳准确吗？",
+        "answer": "时间戳从照片的 EXIF 数据中读取准确的拍摄日期和时间，确保准确无误。"
+      },
+      {
+        "question": "可以自定义水印样式吗？",
+        "answer": "可以，你可以选择多种样式和颜色。高级订阅用户可以使用所有水印样式。"
+      },
+      {
+        "question": "有哪些使用场景？",
+        "answer": "常见用途包括饮食记录、健身打卡、学习证明、起床打卡、宝宝成长记录、工作时间记录和旅行日记。"
+      }
+    ]
+  },
+  "download": {
+    "title": "立即下载",
+    "subtitle": "支持 iOS 和 Android",
+    "appStore": "App Store",
+    "playStore": "Google Play"
+  },
+  "footer": {
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "contact": "联系我们",
+    "copyright": "Artify Inc. 保留所有权利。"
+  },
+  "tool": {
+    "title": "照片添加日期",
+    "subtitle": "上传照片并添加日期时间水印。免费使用，无需注册。",
+    "upload": "上传照片",
+    "uploadHint": "拖放或点击选择文件",
+    "processing": "处理中...",
+    "download": "下载",
+    "reset": "上传其他照片",
+    "noExif": "未找到此照片的日期信息，将使用当前日期/时间代替。",
+    "ctaBanner": "想要更多水印样式？试试我们的App！",
+    "ctaButton": "下载App"
+  }
+}
