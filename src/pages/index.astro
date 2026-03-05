@@ -1,5 +1,16 @@
 ---
 import { defaultLocale } from '../i18n/index';
-
-return Astro.redirect(`/${defaultLocale}/`);
+const target = `/${defaultLocale}/`;
 ---
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="refresh" content={`0;url=${target}`} />
+    <link rel="canonical" href={`https://timestamp.camera${target}`} />
+    <meta name="robots" content="noindex" />
+    <script is:inline define:vars={{ target }}>
+      window.location.replace(target);
+    </script>
+  </head>
+</html>
