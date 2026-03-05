@@ -9,6 +9,7 @@ import FAQ from '../../components/FAQ.astro';
 import Download from '../../components/Download.astro';
 import Footer from '../../components/Footer.astro';
 import StructuredData from '../../components/StructuredData.astro';
+import AdBanner from '../../components/AdBanner.astro';
 
 export async function getStaticPaths() {
   return locales.map((l) => ({
@@ -40,6 +41,7 @@ const canonicalUrl = `${baseUrl}/${locale}/`;
 >
   <StructuredData locale={locale} t={t} type="landing" />
   <Header locale={locale} t={t} />
+  <AdBanner />
   <main>
     <Hero locale={locale} t={t} />
     <Features t={t} />
