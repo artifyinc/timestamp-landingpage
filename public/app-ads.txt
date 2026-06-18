@@ -833,6 +833,7 @@ bidence.com, 4a87393d59a18d4bbfb5326c5d98051a, RESELLER
 bidence.com, 90863d4466f10fe4a352a7afbde0d54e, RESELLER
 bidence.com, b8932c93bf4123ee6d969796302a037c, RESELLER
 bidence.com, d35302328a4b1f129d376f9c2932b0b7, RESELLER
+bidfuse.com, bf070820251050, DIRECT
 bidinfluence.com, 502034, RESELLER
 bidinfluence.com, 502613, DIRECT
 bidmachine.io, 100, RESELLER
@@ -2776,6 +2777,7 @@ pubmatic.com, 165701, RESELLER, 5d62403b186f2ace
 pubmatic.com, 165702, RESELLER, 5d62403b186f2ace
 pubmatic.com, 165864, RESELLER, 5d62403b186f2ace
 pubmatic.com, 165874, RESELLER, 5d62403b186f2ace
+pubmatic.com, 165945, RESELLER, 5d62403b186f2ace
 pubmatic.com, 165980, RESELLER, 5d62403b186f2ace
 pubmatic.com, 165995, RESELLER, 5d62403b186f2ace
 pubmatic.com, 166078, RESELLER, 5d62403b186f2ace
