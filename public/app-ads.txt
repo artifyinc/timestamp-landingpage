@@ -340,6 +340,7 @@ adnuro.com, 4572507814, RESELLER
 adnuro.com, 9303102757, RESELLER
 adops.gr, 0e7622d3aae6b2e1d78bcce196d636e4, RESELLER
 adops.gr, c23b034c3e1baae09a2964f47d949f5d, RESELLER
+adorphic.com, 4038, RESELLER
 adriver.ru, 187150, RESELLER
 adro.io, 3992, RESELLER
 ads.vk.com, 18644219, RESELLER
@@ -348,6 +349,7 @@ adsinteractive.com, 39993, RESELLER
 adsinteractive.com, 69996, RESELLER
 adsinteractive.com, 814370, RESELLER
 adsmovil.com, JKHGrlkjds17, DIRECT
+adsmovil.com, JKHGrlkjds20, RESELLER
 adsphere360.com, 1042770, RESELLER, 
 adstxtmarket.com, 1159989565, RESELLER
 adstxtmarket.com, 1936065023, RESELLER
@@ -679,6 +681,7 @@ appnexus.com, 2764, RESELLER, f5ab79cb980f11d1
 appnexus.com, 3153, RESELLER, f5ab79cb980f11d1
 appnexus.com, 3364, RESELLER
 appnexus.com, 3703, RESELLER, f5ab79cb980f11d1
+appnexus.com, 3920, RESELLER, f5ab79cb980f11d1
 appnexus.com, 4052, RESELLER
 appnexus.com, 4052, RESELLER, f5ab79cb980f11d1
 appnexus.com, 6849, RESELLER
@@ -879,6 +882,7 @@ bidmachine.io, 74, RESELLER
 bidmachine.io, 77, RESELLER
 bidmachine.io, 896, RESELLER
 bidmachine.io, 98, RESELLER
+bidplay.ai, 2607020, RESELLER
 bidscube.com, 100, RESELLER
 bidscube.com, 200260, RESELLER, 6ecc87a1e0269657
 bidscube.com, 4000380, RESELLER, 6ecc87a1e0269657
@@ -913,8 +917,10 @@ blueseasx.com, 232670, RESELLER, 7998eac5087f6110
 bluexad.ai, 1945022290496327680, RESELLER
 bluexad.ai, 1946100279346728960, RESELLER
 bluexad.ai, 1947919201712738304, RESELLER
+bluexad.ai, 2037455927942057984, RESELLER
 bold-win.com, 1131, RESELLER, 71746737d0bab951
 bold-win.com, 1139, RESELLER, 71746737d0bab951
+bold-win.com, 1156, RESELLER, 71746737d0bab951
 bold-win.com, 147, RESELLER
 bold-win.com, 148, RESELLER, 71746737d0bab951
 bold-win.com, 160, RESELLER, 71746737d0bab951
@@ -1181,6 +1187,7 @@ conversantmedia.com, 42094, RESELLER, 03113cd04947736d
 copper6.com, 749492, RESELLER
 copper6.com, 764091, RESELLER
 copper6.com, 764117, RESELLER
+copper6.com, 766138, RESELLER
 criteo.com, 151468, RESELLER
 criteo.com, 186227, RESELLER
 criteo.com, B-057601, RESELLER, 9fac4a4a87c2a44f
@@ -1253,6 +1260,7 @@ e-planning.net, 4c6e71ca46f47d4a, RESELLER, c1ba615865ed87b2
 e-planning.net, 53f866af404c4b62, RESELLER, c1ba615865ed87b2
 e-planning.net, 608359bb987625b2, RESELLER, c1ba615865ed87b2
 e-planning.net, 652c3b0b9d66d86f, RESELLER, c1ba615865ed87b2
+e-planning.net, 670f387ca5975c5e, RESELLER, c1ba615865ed87b2
 e-planning.net, 75f09c55845dd6e3, RESELLER, c1ba615865ed87b2
 e-planning.net, 79686787743ddfc5, RESELLER, c1ba615865ed87b2
 e-planning.net, 7fd99c56106cb0d7, RESELLER, c1ba615865ed87b2
@@ -1978,6 +1986,7 @@ lijit.com, 550620, RESELLER, fafdf38b16bf6b2b
 lijit.com, 558045, RESELLER, fafdf38b16bf6b2b
 lijit.com, 563477, RESELLER, fafdf38b16bf6b2b
 lijit.com, 582705, DIRECT, fafdf38b16bf6b2b
+limpid.tv, 203705, RESELLER
 limpid.tv, 203721, RESELLER
 limpid.tv, 920937, RESELLER
 lkqd.com, 328, RESELLER, 59c49fa9598a0117
@@ -2072,6 +2081,7 @@ lunamedia.io, 32405915-c6d7-44d3-9326-17ce1fb85943, RESELLER, 524ecb396915caaf
 lunamedia.io, 32e73ac5f2eb430dacd4e3773e5fdc8e, DIRECT, 524ecb396915caaf
 lunamedia.io, 464b5a3a-b155-4f05-8953-9f6cd192d932, RESELLER, 524ecb396915caaf
 lunamedia.io, 5ad539e09ec9485cab7b81d68a5bd757, DIRECT, 524ecb396915caaf
+lunamedia.io, 7ce16eb9-8b64-43ef-8a76-2abf6c151cd5, RESELLER, 524ecb396915caaf
 lunamedia.io, 920a0ad09fc811ec82a719991b8924e5, DIRECT, 524ecb396915caaf
 lunamedia.io, 95e91458a9617dbc0c5a48280e163222, RESELLER, 524ecb396915caaf
 lunamedia.io, 95ed51edc1cb499baaf3476fcb6fa463, RESELLER, 524ecb396915caaf
@@ -2111,6 +2121,7 @@ mars.media, 1010442, RESELLER, 8624339f102fb076
 mars.media, 1010443, RESELLER, 8624339f102fb076
 mars.media, 1010450, RESELLER, 8624339f102fb076
 mars.media, 1010463, RESELLER
+mars.media, 1010477, RESELLER, 8624339f102fb076
 mars.media, 102753, RESELLER
 mars.media, 103116, RESELLER
 mars.media, 107876, RESELLER, 8624339f102fb076
@@ -2178,6 +2189,7 @@ mediafuse.com, 316569, RESELLER
 mediafuse.com, 720, RESELLER
 mediafuse.com, 809, RESELLER
 medialinkstarx.com, 335, RESELLER
+mediaverse.ai, 3021109348, RESELLER
 mediaverse.ai, 302149932, RESELLER
 mediaverse.ai, 302152861, RESELLER
 mediaverse.ai, 302152862, RESELLER
@@ -2998,6 +3010,7 @@ richaudience.com, IBgrMXsP4O, RESELLER
 richaudience.com, O2hIZpokwO, RESELLER
 richaudience.com, QjHuk6yVjA, RESELLER
 richaudience.com, flNoR9ht06, RESELLER
+richaudience.com, skJudSCZ30, RESELLER
 risecodes.com, 5fad0eb54fdc5c00016859b1, DIRECT
 risecodes.com, 6022acddc8b2f90001767980, RESELLER
 risecodes.com, 63832beef8189a00015cb6d3, RESELLER
@@ -3606,6 +3619,7 @@ smartyads.com, 368, RESELLER, fd2bde0ff2e62c5d
 smartyads.com, 478, RESELLER, fd2bde0ff2e62c5d
 smartyads.com, 8, RESELLER, fd2bde0ff2e62c5d
 smartyads.com, 897, RESELLER, fd2bde0ff2e62c5d
+smilewanted.com, 4318, RESELLER
 smilewanted.com, 5548, RESELLER
 smilewanted.com, 5715, RESELLER
 smilewanted.com, 5780, RESELLER
