@@ -5,6 +5,7 @@
 152media.info, 152M1133, RESELLER
 152media.info, 152M1215, RESELLER
 152media.info, 152M312, RESELLER
+152media.info, 152M328, RESELLER
 152media.info, 152M337, RESELLER
 152media.info, 152M372, RESELLER
 152media.info, 152M499, RESELLER
@@ -854,6 +855,7 @@ betweendigital.com, 44659, RESELLER
 betweendigital.com, 44851, RESELLER
 betweendigital.com, 44917, RESELLER
 betweendigital.com, 44971, DIRECT
+betweendigital.com, 44977, DIRECT
 betweendigital.com, 45117, DIRECT
 betweendigital.com, 45117, RESELLER
 betweendigital.com, 45270, RESELLER
@@ -1007,6 +1009,7 @@ chartboost.com, 64b61cd3d627868da53e4367, DIRECT
 chocolateplatform.com, 14630, RESELLER, 49a66ce31a704197
 chocolateplatform.com, 14637, RESELLER, 49a66ce31a704197
 chocolateplatform.com, 17289, DIRECT, 49a66ce31a704197
+chocolateplatform.com, 17289, RESELLER, 49a66ce31a704197
 cmcm.com, 58, RESELLER
 cmcm.com, 66, RESELLER
 connatix.com, 1652500284288994, RESELLER, 2af98acdee0e81ed
@@ -1367,6 +1370,7 @@ eskimi.com, 2020000694, RESELLER
 eskimi.com, 2020000810, RESELLER
 eskimi.com, 2020000857, RESELLER
 eskimi.com, 2020001167, RESELLER
+eskimi.com, 2020001193, RESELLER
 eskimi.com, 2020001211, RESELLER
 eskimi.com, eas-2020000005, RESELLER
 exchange.loyal.app, AJxF6R86a9M6CaTvK, DIRECT
@@ -1730,6 +1734,7 @@ improvedigital.com, 2613, RESELLER
 improvedigital.com, 2624, RESELLER
 improvedigital.com, 2625, RESELLER
 improvedigital.com, 2850, RESELLER
+improvedigital.com, 2919, RESELLER
 inceptionmedia.ai, 64268289, DIRECT
 inceptionmedia.ai, 642690015, RESELLER
 indexexchange.com, 179974, RESELLER
@@ -2542,6 +2547,7 @@ opera.com, pub4366595624320, RESELLER, 55a0c5fd61378de3
 opera.com, pub4443745972800, RESELLER, 55a0c5fd61378de3
 opera.com, pub4444433466368, RESELLER, 55a0c5fd61378de3
 opera.com, pub4902974418496, RESELLER, 55a0c5fd61378de3
+opera.com, pub4903319265728, RESELLER, 55a0c5fd61378de3
 opera.com, pub5296098761088, RESELLER, 55a0c5fd61378de3
 opera.com, pub5449961587776, RESELLER, 55a0c5fd61378de3
 opera.com, pub5479493704320, RESELLER, 55a0c5fd61378de3
@@ -3394,6 +3400,7 @@ sharethrough.com, 3blZyYks, RESELLER, d53b998a7bd4ecd2
 sharethrough.com, 4284, RESELLER, d53b998a7bd4ecd2
 sharethrough.com, 4343, RESELLER, d53b998a7bd4ecd2
 sharethrough.com, 4383, RESELLER, d53b998a7bd4ecd2
+sharethrough.com, 4395, RESELLER, d53b998a7bd4ecd2
 sharethrough.com, 4456, RESELLER, d53b998a7bd4ecd2
 sharethrough.com, 4483, RESELLER, d53b998a7bd4ecd2
 sharethrough.com, 4537, RESELLER, 060d053dcf45cbf3
@@ -3944,6 +3951,7 @@ themediagrid.com, 4ZVFEU, RESELLER, 35d5010d7789b49d
 themediagrid.com, 5KMQ9S, RESELLER, 35d5010d7789b49d
 themediagrid.com, 6XGFYQ, RESELLER, 35d5010d7789b49d
 themediagrid.com, 7MYRZ3, RESELLER, 35d5010d7789b49d
+themediagrid.com, 8USKI6, RESELLER, 9fac4a4a87c2a44f
 themediagrid.com, 8ZRKBE, RESELLER
 themediagrid.com, 8ZRKBE, RESELLER, 35d5010d7789b49d
 themediagrid.com, 8ZRKBE, RESELLER, 9fac4a4a87c2a44f
