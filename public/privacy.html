@@ -10,14 +10,15 @@
 <p class="p3"><span class="s1"><strong>2. WHAT STAYS ON YOUR DEVICE</strong></span></p>
 <p class="p2"><span class="s1">The following is processed only on your device. We do not receive it, except for the iOS photo quality thumbnail described in Section 4:</span></p>
 <ul class="ul1">
-	<li class="li4"><span class="s1"><strong>Camera.</strong> The App uses the camera only to take photos. It does not record video and does not use the microphone.</span></li>
-	<li class="li4"><span class="s1"><strong>Photo library.</strong> The App reads photos you choose, including the date and time stored in the photo, so it can show that date as a stamp. Edited photos are saved back to your photo library on your device. When saving, the App writes the capture date into the photo&rsquo;s metadata and does not add location (GPS) data.</span></li>
+	<li class="li4"><span class="s1"><strong>Camera and microphone.</strong> The App uses the camera to take photos and, on iOS, to record videos. When you record a video on iOS, the App asks for microphone access so that the video can include sound. The date and time stamp is drawn into the video on your device, and the finished video, including its audio, is saved to your photo library. Videos and audio are never sent to us. If you do not allow microphone access, videos are recorded without sound. The Android App does not record video and does not use the microphone.</span></li>
+	<li class="li4"><span class="s1"><strong>Photo library.</strong> The App reads photos you choose, including the date and time stored in the photo, so it can show that date as a stamp. Edited photos and recorded videos are saved to your photo library on your device. When saving, the App sets the capture date and does not add location (GPS) data.</span></li>
 	<li class="li4"><span class="s1"><strong>Text and stamps.</strong> Text you type onto a photo, and the stamp styles and settings you choose, are stored on your device.</span></li>
 	<li class="li4"><span class="s1"><strong>Screen lock (iOS).</strong> If you turn on the App passcode, it is stored in the iOS Keychain on your device. Face ID / Touch ID checks are performed by iOS, and we never receive biometric data.</span></li>
 	<li class="li4"><span class="s1"><strong>Usage pattern for ad timing.</strong> The App keeps a short on-device history (about 7 days) of when you take photos, used to decide when to show ads. The detailed history stays on your device. Only summary counts (for example, the number of photo sessions and photos per day, and the hour of day) are sent as analytics events, as described in Section 3.</span></li>
 	<li class="li4"><span class="s1"><strong>Website photo tool.</strong> The free timestamp tool on the Website processes your photo in your browser. The photo is not uploaded to us.</span></li>
+	<li class="li4"><span class="s1"><strong>Share extension and Shortcuts (iOS).</strong> You can stamp photos from another app&rsquo;s share sheet (&ldquo;Timestamp&rdquo; share extension) or with the Shortcuts / Siri action. These run on your device. The share extension contains no analytics or advertising SDK. It uses an App Group shared with the App to read your stamp settings and to keep a record of each save event, such as the number of photos and the time. The App sends these records to Google Analytics for Firebase the next time you open it. The photos themselves are not uploaded.</span></li>
 </ul>
-<p class="p2"><span class="s1">When you share a photo, the App opens your device&rsquo;s share sheet. The photo goes to the app or person you choose, and that recipient&rsquo;s own privacy policy applies.</span></p>
+<p class="p2"><span class="s1">When you share a photo or video, the App opens your device&rsquo;s share sheet. The photo or video goes to the app or person you choose, and that recipient&rsquo;s own privacy policy applies.</span></p>
 
 <p class="p3"><span class="s1"><strong>3. INFORMATION WE COLLECT AND WHY</strong></span></p>
 <p class="p2"><span class="s1">We do not ask for your name, email address, phone number or any account details in the App. The information below is collected automatically by the App and by the third-party software development kits (&ldquo;SDKs&rdquo;) built into it.</span></p>
@@ -32,7 +33,7 @@
 <p class="p2"><span class="s1">Used for: analytics, crash reporting, app configuration, advertising and ad measurement, and fraud prevention.</span></p>
 <p class="p2"><span class="s1"><strong>b) App activity</strong></span></p>
 <ul class="ul1">
-	<li class="li4"><span class="s1">Events such as app opens, screens and buttons used, photos taken, saved or shared (the event only, not the photo), stamp and date-format choices, camera settings, onboarding steps, permission grant or deny results, and subscription screen views and outcomes.</span></li>
+	<li class="li4"><span class="s1">Events such as app opens, screens and buttons used, photos and videos taken, saved or shared (the event only, plus details such as video length and format, not the photo or video itself), stamp and date-format choices, camera settings, onboarding steps, permission grant or deny results, and subscription screen views and outcomes.</span></li>
 	<li class="li4"><span class="s1">The interest categories you optionally select during onboarding (for example: diet, exercise, study, parenting, work, daily life).</span></li>
 	<li class="li4"><span class="s1">Ad events such as ad impressions and clicks.</span></li>
 </ul>
@@ -62,7 +63,7 @@
 	<li class="li4"><span class="s1">It uploads this copy to our Google Firebase Cloud Storage bucket.</span></li>
 	<li class="li4"><span class="s1">The file name contains the upload date, your device&rsquo;s identifier for vendor (IDFV) and a count of how many photos you have saved.</span></li>
 </ul>
-<p class="p2"><span class="s1">The full-size photo is never uploaded.</span></p>
+<p class="p2"><span class="s1">The full-size photo is never uploaded. Videos, and photos stamped through the share extension or Shortcuts, are never uploaded by this feature.</span></p>
 <p class="p2"><span class="s1">Purpose: [[TODO: owner to confirm the purpose of the thumbnails, e.g. checking that stamps render correctly across devices, and who at Artify can access them]]</span></p>
 <p class="p2"><span class="s1">Status: [[TODO: owner to confirm whether the &ldquo;monitor&rdquo; Remote Config flag is currently on, and for which users or regions]]</span></p>
 <p class="p2"><span class="s1">Retention: [[TODO: owner to confirm the retention period for thumbnails in the &ldquo;monitor/&rdquo; folder; recommend an automatic deletion rule, e.g. 30 days]]</span></p>
@@ -117,7 +118,7 @@
 
 <p class="p3"><span class="s1"><strong>7. HOW LONG WE KEEP INFORMATION</strong></span></p>
 <ul class="ul1">
-	<li class="li4"><span class="s1"><strong>Photos, text and settings on your device:</strong> kept on your device until you delete them or uninstall the App. We never hold copies, except the thumbnails in Section 4.</span></li>
+	<li class="li4"><span class="s1"><strong>Photos, videos, text and settings on your device:</strong> kept on your device until you delete them or uninstall the App. We never hold copies, except the thumbnails in Section 4.</span></li>
 	<li class="li4"><span class="s1"><strong>Photo quality thumbnails (iOS):</strong> [[TODO: owner to confirm retention period]]</span></li>
 	<li class="li4"><span class="s1"><strong>Analytics events (Google Analytics for Firebase):</strong> user-level and event-level data is kept for [[TODO: owner to confirm the data retention setting in Google Analytics: 2 months or 14 months]], then deleted automatically. Aggregated reports that do not identify you may be kept longer.</span></li>
 	<li class="li4"><span class="s1"><strong>Crash reports (Firebase Crashlytics):</strong> kept for 90 days, after which Google starts removing them.</span></li>
