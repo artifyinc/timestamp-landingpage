@@ -1527,6 +1527,8 @@ freewheel.tv, 536110-r-524565, RESELLER
 freewheel.tv, 539813-r-523319, RESELLER
 freewheel.tv, 539813-r-524565, RESELLER
 freewheel.tv, 545428, RESELLER
+freewheel.tv, 548888-r-523319, RESELLER, 74e8e47458f74754
+freewheel.tv, 548888-r-524565, RESELLER, 74e8e47458f74754
 freewheel.tv, 741650, RESELLER
 freewheel.tv, 799921, RESELLER
 freewheel.tv, 895601, RESELLER
@@ -1534,6 +1536,7 @@ freewheel.tv, sg1256359, RESELLER
 freewheel.tv, sg1256366, RESELLER, 74e8e47458f74754
 freewheel.tv, sg1256499, RESELLER
 freewheel.tv, sg1258340, RESELLER
+freewheel.tv, sg1332502, RESELLER, 74e8e47458f74754
 fromthetop.io, 65527, RESELLER
 fromthetop.io, 65529, RESELLER
 fromthetop.io, 65536, RESELLER
@@ -2023,6 +2026,7 @@ lenovoads.com, 4000, DIRECT
 lenovoads.com, 4000, RESELLER
 levelx.tv, 1003045, RESELLER
 lifestreet.com, 300055, DIRECT
+liftoff.ai, 63c7b6b2f22ae3001457f1fb, DIRECT, c107d686becd2d77
 liftoff.io, 7f6945815e6, RESELLER
 lijit.com, 222372, RESELLER, fafdf38b16bf6b2b
 lijit.com, 224984, DIRECT, fafdf38b16bf6b2b
@@ -4229,6 +4233,7 @@ themediagrid.com, SWH94X, RESELLER, 35d5010d7789b49d
 themediagrid.com, SWH94X, RESELLER, 9fac4a4a87c2a44f
 themediagrid.com, SYMTFD, RESELLER, 35d5010d7789b49d
 themediagrid.com, WS2D8N, RESELLER, 35d5010d7789b49d
+themediagrid.com, WS2D8N, RESELLER, 9fac4a4a87c2a44f
 themediagrid.com, XYIOA3, RESELLER, 35d5010d7789b49d
 themediagrid.com, YUPM3V, RESELLER, 35d5010d7789b49d
 themediagrid.com, ZA2VPO, RESELLER, 35d5010d7789b49d
